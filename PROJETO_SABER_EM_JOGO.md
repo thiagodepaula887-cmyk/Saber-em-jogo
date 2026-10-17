@@ -1,11 +1,11 @@
 # Saber em Jogo — projeto e continuidade
 
-Atualização: 16/10/2026. Versão 0.3.
+Atualização: 16/10/2026. Versão 0.4.
 
 ## Acesso e arquivos
 
 - Aplicativo web: https://saber-em-jogo-thiago.thiagodepaula887.chatgpt.site
-- APK Android de teste: https://drive.google.com/file/d/10EvT_91pkMHKJ0xhT_Dfwz2kXL6rEWaU/view
+- APK Android de teste: https://drive.google.com/file/d/1QoYjzzpeSSHa58LHXF-O9JeTnPLcv6uL/view
 - Backup: pasta Saber em jogo no Drive, incluindo este resumo, código completo e APK.
 - GitHub: https://github.com/thiagodepaula887-cmyk/Saber-em-jogo — repositório público criado pelo usuário.
 
@@ -76,6 +76,13 @@ As fontes editoriais são `web/content/general.txt` e `web/content/oab.txt`. O g
 
 ## Integridade
 
-- SHA-256 do APK: `c716309a40ddc702c9c460f77bda56c92da512cb518f78c2c503b216bbf28029`
+- SHA-256 do APK: `4077e6b79161112370ec5884f430efed3061761df8c02b454a7d89aa67b2405e`
 - SHA-256 do banco: `6c6c7a91526443ca52f18f0a6bc0cb53023efb1d75966850809cea4b857a2bcc`
-- Commit web: `a98288fbcabfaaa0f4523c5ebda13aa824649259`.
+- Commit web: `2f6507052320723c00412ce1453b30343b95b26a`.
+
+
+## Atualização 0.4
+
+Implementados na web e no APK offline: modo Desafio com três vidas, pontuação por fase e ajuda 50/50; cronômetro opcional de 30 segundos; caderno de erros; desafio diário de dez perguntas com sequência de dias; sons opcionais. O projeto Expo continua separado, na base anterior.
+
+Verificações: cinco testes unitários de motor, smoke test do fluxo com DOM simulado (três erros, expiração, duplicidade, revisão e conclusão diária), assinatura APK e alinhamento. Certificado comparado ao da versão 0.3: idêntico. Atualização instalável por cima da anterior, preservando os dados locais; não desinstalar antes. Ainda sem teste em aparelho real.

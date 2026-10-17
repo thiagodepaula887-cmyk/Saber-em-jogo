@@ -1,6 +1,6 @@
 # Android offline — APK de teste
 
-Aplicativo Android instalável, independente do Expo Go, com a interface web e as 400 questões embarcadas. Compatibilidade declarada: Android 8.0 (API 26) ou superior. Assinatura de teste, sem publicação nas lojas. A instalação não foi validada em aparelho/emulador nesta entrega.
+Aplicativo Android instalável, independente do Expo Go, com a interface web e as 400 questões embarcadas e os modos de jogo descritos no CHANGELOG.md. Compatibilidade declarada: Android 8.0 (API 26) ou superior. Assinatura de teste, sem publicação nas lojas. A instalação não foi validada em aparelho/emulador nesta entrega.
 
 ## Implementação
 
@@ -17,3 +17,5 @@ Verificações executadas: compilação de recursos e Java, conversão DEX, zipa
 A chave de teste não está neste repositório e permanece no backup privado do proprietário para permitir atualizações de teste. Não usar essa chave em produção. Não publicar keystores no GitHub; `.gitignore` os exclui.
 
 Mudanças no conteúdo offline exigem nova compilação e instalação de atualização. Desinstalar apaga o progresso local.
+
+Versão 0.4: mesmo pacote e certificado de teste da 0.3. Instale por cima da versão anterior para preservar o progresso. Não desinstale antes de atualizar.

@@ -7,3 +7,5 @@ artifacts/
 *.keystore
 *.jks
 *.env
+
+*.idsig

@@ -78,7 +78,7 @@ public final class MainActivity extends Activity {
   web.loadUrl("https://"+HOST+"/assets/index.html");
  }
  private WebResourceResponse blocked(){return new WebResourceResponse("text/plain","UTF-8",404,"Not Found",null,new ByteArrayInputStream(new byte[0]));}
- @Override public void onBackPressed(){web.evaluateJavascript("(()=>{if(typeof round!=='undefined'&&round.length){if(confirm('Sair da partida?'))home();return false;}if(typeof mode!=='undefined'&&mode){home();return false;}return true;})()",new ValueCallback<String>(){public void onReceiveValue(String result){if("true".equals(result))finish();}});}
+ @Override public void onBackPressed(){web.evaluateJavascript("(typeof handleAppBack==='function'?handleAppBack():true)",new ValueCallback<String>(){public void onReceiveValue(String result){if("true".equals(result))finish();}});}
  @Override protected void onPause(){super.onPause();web.onPause();}
  @Override protected void onResume(){super.onResume();if(web!=null)web.onResume();}
  @Override protected void onDestroy(){if(web!=null){web.destroy();web=null;}super.onDestroy();}
