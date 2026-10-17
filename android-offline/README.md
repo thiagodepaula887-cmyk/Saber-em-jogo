@@ -1,0 +1,19 @@
+# Android offline — APK de teste
+
+Aplicativo Android instalável, independente do Expo Go, com a interface web e as 400 questões embarcadas. Compatibilidade declarada: Android 8.0 (API 26) ou superior. Assinatura de teste, sem publicação nas lojas. A instalação não foi validada em aparelho/emulador nesta entrega.
+
+## Implementação
+
+Activity Java com WebView, conteúdo servido de assets por interceptação de URL HTTPS em origem local. Sem permissão de internet ou acesso ao armazenamento externo. Fontes externas são abertas no navegador do aparelho. Histórico em localStorage, independente do SQLite do projeto Expo. Não usa servidor remoto para jogar.
+
+Este é um pacote Android offline separado do projeto React Native de `mobile/`. O APK atual foi produzido desta pasta. O projeto Expo permanece como base multiplataforma para evolução e futura distribuição iOS.
+
+## Compilação
+
+Usa Java 17, compilador Eclipse ECJ 3.37.0, platform Android 35 (platform-35_r02.zip) e build-tools 35.0.0 (build-tools_r35_linux.zip), obtidos dos fornecedores oficiais. O diretório apontado por QUIZ_ANDROID_TOOLS deve conter `android-35/android.jar`, `android-15/` com as build-tools extraídas e `ecj.jar`. Executar `python3 build.py`.
+
+Verificações executadas: compilação de recursos e Java, conversão DEX, zipalign, assinatura e verificação apksigner v2/v3, pacote e manifesto com aapt2, e correspondência de todas as 400 questões ao banco da web. Sem bibliotecas nativas específicas de CPU.
+
+A chave de teste não está neste repositório e permanece no backup privado do proprietário para permitir atualizações de teste. Não usar essa chave em produção. Não publicar keystores no GitHub; `.gitignore` os exclui.
+
+Mudanças no conteúdo offline exigem nova compilação e instalação de atualização. Desinstalar apaga o progresso local.

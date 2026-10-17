@@ -1,0 +1,81 @@
+# Saber em Jogo — projeto e continuidade
+
+Atualização: 16/10/2026. Versão 0.3.
+
+## Acesso e arquivos
+
+- Aplicativo web: https://saber-em-jogo-thiago.thiagodepaula887.chatgpt.site
+- APK Android de teste: https://drive.google.com/file/d/10EvT_91pkMHKJ0xhT_Dfwz2kXL6rEWaU/view
+- Backup: pasta Saber em jogo no Drive, incluindo este resumo, código completo e APK.
+- GitHub: https://github.com/thiagodepaula887-cmyk/Saber-em-jogo — repositório público criado pelo usuário.
+
+## Estado funcional
+
+400 questões autorais comentadas: 160 jurídicas em 20 disciplinas e 240 gerais em nove categorias. Acrescentadas 100 questões em relação à versão anterior, com Eleitoral, Previdenciário, Financeiro, Direitos Humanos e Filosofia do Direito.
+
+Tela inicial com troféu, cartões de modos, estatísticas, nível e XP; escolha de tema; rodadas de até dez perguntas; alternativas embaralhadas na web e APK; comentários e fontes; resultado e prioridade para inéditas. A página web também oferece botão para baixar o APK. Não há prêmios em dinheiro.
+
+| Categoria ou disciplina | Questões |
+| --- | ---: |
+| esportes | 26 |
+| religião | 26 |
+| história | 26 |
+| geografia | 26 |
+| português | 26 |
+| matemática | 26 |
+| artes | 26 |
+| literatura | 26 |
+| variedades | 32 |
+| Ética Profissional | 8 |
+| Direito Constitucional | 8 |
+| Direito Civil | 8 |
+| Processo Civil | 8 |
+| Direito Penal | 8 |
+| Processo Penal | 8 |
+| Direito do Trabalho | 8 |
+| Processo do Trabalho | 8 |
+| Direito Administrativo | 8 |
+| Direito Tributário | 8 |
+| Direito Empresarial | 8 |
+| Direito do Consumidor | 8 |
+| Estatuto da Criança e do Adolescente | 8 |
+| Direito Ambiental | 8 |
+| Direito Internacional | 8 |
+| Direito Eleitoral | 8 |
+| Direito Previdenciário | 8 |
+| Direito Financeiro | 8 |
+| Direitos Humanos | 8 |
+| Filosofia do Direito | 8 |
+
+## Arquitetura e diferenças entre versões
+
+- `web/`: HTML/CSS/JS, localStorage, hospedagem Sites. Não sincroniza histórico com outros aparelhos.
+- `android-offline/`: Activity Java + WebView com todos os arquivos locais; APK compilado nesta entrega, independente de Expo Go. Histórico em localStorage do aplicativo.
+- `mobile/`: base React Native + Expo + TypeScript + SQLite para evolução multiplataforma. Não é o código usado para compilar este APK. Ainda sem binário iOS.
+
+O APK offline foi escolhido para permitir instalação imediata sem exigir configuração de uma conta Expo ou ambiente de desenvolvimento do usuário. A assinatura é de teste. Produção nas lojas exige assinatura definitiva e cumprimento dos requisitos de publicação.
+
+## Validação
+
+Todas as 400 perguntas têm IDs e enunciados únicos, quatro alternativas distintas e gabarito válido. Web validada em testes com DOM simulado; sem nova inspeção visual automatizada. Mobile Expo aprovado na tipagem e em sete testes com SQLite real. APK compilado, alinhado, assinado e verificado (v2/v3); manifesto e recursos conferidos. Confirmado que o APK contém o mesmo banco de 400 questões da web. Não executado em aparelho ou emulador.
+
+## Conteúdo e fontes
+
+Exercícios autorais introdutórios de fixação. Não são reproduções oficiais de exames FGV e não substituem simulados completos. As questões jurídicas contêm artigos e fontes oficiais; Filosofia utiliza obras primárias de Kant e Aristóteles em domínio público via Project Gutenberg. Revisão assistida por IA, sem validação independente por professor.
+
+As fontes editoriais são `web/content/general.txt` e `web/content/oab.txt`. O gerador `web/scripts/build-content.py` valida quantidades e gera o JSON. Revisões de conteúdo devem aumentar o número de versão correspondente. O pacote mobile usa uma cópia validada desse JSON.
+
+## Próximas etapas
+
+1. Testar instalação, abertura, fluxo de partida e reabertura do APK no celular.
+2. Manter o código atualizado no GitHub, excluindo chaves de assinatura e arquivos temporários.
+3. Acrescentar situações-problema e níveis de dificuldade OAB, com revisão editorial independente.
+4. Implementar caderno de erros, revisão espaçada, retomada de partidas e acessibilidade validada em dispositivo.
+5. Configurar nuvem, painel editorial e sincronização, se desejado.
+6. Definir identidade definitiva, política de privacidade, contas de desenvolvedor, assinatura e distribuição nas lojas.
+
+## Integridade
+
+- SHA-256 do APK: `c716309a40ddc702c9c460f77bda56c92da512cb518f78c2c503b216bbf28029`
+- SHA-256 do banco: `6c6c7a91526443ca52f18f0a6bc0cb53023efb1d75966850809cea4b857a2bcc`
+- Commit web: `a98288fbcabfaaa0f4523c5ebda13aa824649259`.

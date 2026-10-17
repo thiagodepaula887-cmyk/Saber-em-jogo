@@ -1,0 +1,258 @@
+# esportes
+Quantos jogadores por equipe iniciam uma partida de futebol de campo?|11|9|10|12|São onze jogadores, incluindo o goleiro.
+Qual esporte usa uma peteca e raquetes em competições olímpicas?|Badminton|Squash|Tênis de mesa|Golfe|No badminton, a peteca é rebatida sobre uma rede.
+Quantos jogadores de uma equipe ficam em quadra no voleibol de quadra?|6|5|7|8|Cada equipe atua com seis jogadores em quadra.
+Quantos pontos vale um lance livre convertido no basquete?|1|2|3|4|O lance livre vale um ponto; arremessos em jogo podem valer dois ou três.
+Qual é a distância oficial de uma maratona?|42,195 km|40 km|21,0975 km|50 km|A maratona tem 42 quilômetros e 195 metros.
+Em qual esporte se usa um taco para atingir a bola até um buraco no campo?|Golfe|Handebol|Polo aquático|Esgrima|O objetivo do golfe é completar os buracos com o menor número de tacadas.
+Qual país sediou a Copa do Mundo masculina de futebol de 2014?|Brasil|Alemanha|África do Sul|Rússia|O Brasil recebeu a edição de 2014.
+Qual seleção venceu a Copa do Mundo masculina de futebol de 2002?|Brasil|Alemanha|França|Argentina|O Brasil conquistou o pentacampeonato ao vencer a Alemanha na final.
+Em qual esporte se disputa o Tour de France?|Ciclismo|Automobilismo|Atletismo|Remo|O Tour de France é uma competição de ciclismo de estrada por etapas.
+Qual destas modalidades é uma luta de origem japonesa?|Judô|Boxe|Capoeira|Luta greco-romana|O judô foi desenvolvido no Japão por Jigoro Kano.
+No tênis, como se chama o placar de 40 a 40 em um game?|Deuce|Ace|Set point|Love|Deuce indica empate em 40 a 40, exigindo vantagem para vencer o game nas regras tradicionais.
+Quantos jogadores por equipe ficam em quadra no handebol, incluindo o goleiro?|7|6|5|8|São seis jogadores de linha e um goleiro.
+Qual estilo de natação exige o movimento simultâneo dos braços sobre a água, com pernas em ondulação?|Borboleta|Costas|Peito|Cachorrinho|O borboleta combina recuperação simultânea dos braços e pernadas de golfinho.
+Qual peça do xadrez se movimenta em formato de L?|Cavalo|Bispo|Torre|Rei|O cavalo desloca-se duas casas numa direção e uma na perpendicular.
+O roque é um movimento do xadrez que envolve quais peças?|Rei e torre|Rei e bispo|Dama e torre|Cavalo e peão|O roque movimenta o rei e uma torre, desde que cumpridas as condições do lance.
+Qual atleta brasileiro ficou conhecido como Rei do Futebol?|Pelé|Zico|Romário|Sócrates|Pelé recebeu o apelido de Rei do Futebol e venceu três Copas do Mundo.
+Qual cidade brasileira sediou os Jogos Olímpicos de Verão de 2016?|Rio de Janeiro|São Paulo|Brasília|Salvador|O Rio de Janeiro sediou os Jogos de 2016.
+Em qual esporte se usam florete, espada e sabre?|Esgrima|Tiro com arco|Ginástica rítmica|Hipismo|Florete, espada e sabre são as três armas da esgrima esportiva.
+No futebol, como se chama a cobrança que recoloca a bola após sair pela linha lateral?|Arremesso lateral|Tiro de meta|Escanteio|Pênalti|A saída pela linha lateral é seguida de arremesso lateral pela equipe adversária à última que tocou na bola.
+Qual esporte tem as posições de levantador e líbero?|Voleibol|Basquete|Beisebol|Rúgbi|Levantador e líbero exercem funções específicas no voleibol.
+# religião
+Qual livro é sagrado no islamismo?|Alcorão|Torá|Vedas|Tao Te Ching|O Alcorão é o texto sagrado central do islamismo.
+O Natal cristão celebra tradicionalmente qual acontecimento?|Nascimento de Jesus|Ressurreição de Jesus|Êxodo do Egito|Entrega dos Dez Mandamentos|O Natal celebra o nascimento de Jesus na tradição cristã.
+A Páscoa cristã celebra principalmente qual acontecimento?|Ressurreição de Jesus|Nascimento de Jesus|Nascimento de Moisés|Início do Ramadã|Na tradição cristã, a Páscoa celebra a ressurreição de Jesus.
+Qual tradição religiosa está associada à Torá?|Judaísmo|Budismo|Xintoísmo|Taoismo|A Torá ocupa posição central no judaísmo.
+Siddhartha Gautama está associado à origem de qual tradição?|Budismo|Islamismo|Cristianismo|Sikhismo|Siddhartha Gautama é conhecido como Buda, o desperto.
+Em qual cidade fica a Caaba, importante local sagrado do islamismo?|Meca|Jerusalém|Roma|Atenas|A Caaba fica em Meca, na Arábia Saudita.
+Qual é o nome do período de jejum diurno observado por muitos muçulmanos?|Ramadã|Advento|Quaresma|Hanukkah|Durante o Ramadã, muçulmanos que podem fazê-lo jejuam do amanhecer ao pôr do sol.
+Qual destes textos pertence à tradição hindu?|Bhagavad Gita|Novo Testamento|Alcorão|Livro de Mórmon|A Bhagavad Gita integra o Mahabharata, da tradição hindu.
+Qual religião é tradicionalmente associada aos kami no Japão?|Xintoísmo|Zoroastrismo|Judaísmo|Espiritismo|Kami são presenças ou entidades sagradas da tradição xintoísta.
+Qual tradição está associada ao conceito de yin e yang e ao Tao?|Taoismo|Sikhismo|Cristianismo|Islamismo|O Tao e a complementaridade de yin e yang são temas importantes do pensamento taoista.
+O Guru Granth Sahib é o texto sagrado central de qual religião?|Sikhismo|Judaísmo|Budismo|Xintoísmo|No sikhismo, o Guru Granth Sahib ocupa posição de guia espiritual.
+Qual figura está associada à sistematização do espiritismo no século XIX?|Allan Kardec|Martinho Lutero|Confúcio|Tomás de Aquino|Allan Kardec publicou obras fundamentais da doutrina espírita.
+Em qual país surgiu a Reforma Protestante iniciada por Martinho Lutero?|Alemanha|Portugal|México|Japão|A atuação de Lutero no século XVI ocorreu em territórios da atual Alemanha.
+Qual termo designa a crença em uma única divindade?|Monoteísmo|Politeísmo|Ateísmo|Panteísmo|Monoteísmo é a crença em um único Deus.
+Qual termo designa a crença em várias divindades?|Politeísmo|Monoteísmo|Ateísmo|Agnosticismo|Politeísmo é a crença em múltiplas divindades.
+Uma sinagoga é um local de reunião religiosa de qual tradição?|Judaísmo|Islamismo|Xintoísmo|Hinduísmo|Sinagogas são espaços de oração, estudo e convivência judaica.
+Uma mesquita é um local de culto de qual religião?|Islamismo|Cristianismo|Budismo|Sikhismo|Mesquitas são espaços de oração e reunião dos muçulmanos.
+Qual destas tradições brasileiras tem forte presença do culto aos orixás?|Candomblé|Luteranismo|Calvinismo|Presbiterianismo|O culto aos orixás é central em diversas tradições do candomblé, respeitada sua diversidade de nações.
+Qual cidade abriga a sede da Igreja Católica e a Basílica de São Pedro?|Cidade do Vaticano|Lisboa|Genebra|Canterbury|O Vaticano abriga a Santa Sé e a Basílica de São Pedro.
+O diálogo inter-religioso busca principalmente o quê?|Respeito e compreensão entre tradições|Eliminar toda diversidade religiosa|Obrigar conversões|Proibir crenças minoritárias|O diálogo inter-religioso promove convivência respeitosa entre pessoas de diferentes crenças.
+# história
+Em que ano começou a Segunda Guerra Mundial na Europa?|1939|1914|1945|1929|A invasão alemã da Polônia em 1939 marcou o início da guerra na Europa.
+Em que ano terminou a Segunda Guerra Mundial?|1945|1939|1918|1955|A guerra terminou em 1945, após as rendições da Alemanha e do Japão.
+Em que ano começou a Primeira Guerra Mundial?|1914|1918|1939|1900|A Primeira Guerra Mundial começou em 1914 e terminou em 1918.
+A Revolução Francesa teve seu início convencional em qual ano?|1789|1492|1822|1917|A queda da Bastilha, em 1789, é um marco inicial da Revolução Francesa.
+Em que ano foi proclamada a Independência do Brasil?|1822|1889|1500|1808|A Independência foi proclamada em 7 de setembro de 1822.
+Em que ano foi proclamada a República brasileira?|1889|1822|1888|1930|A Proclamação da República ocorreu em 15 de novembro de 1889.
+Qual lei aboliu juridicamente a escravidão no Brasil em 1888?|Lei Áurea|Lei de Terras|Lei do Ventre Livre|Lei Eusébio de Queirós|A Lei Áurea foi assinada em 13 de maio de 1888.
+Qual civilização antiga construiu as pirâmides de Gizé?|Egípcia|Romana|Inca|Fenícia|As pirâmides de Gizé foram construídas no Egito antigo.
+Qual cidade foi capital do Império Romano do Ocidente antes de suas mudanças de sede?|Roma|Atenas|Alexandria|Cartago|Roma deu nome ao império e foi sua capital histórica.
+Qual movimento cultural europeu valorizou referências da Antiguidade clássica entre os séculos XIV e XVI?|Renascimento|Romantismo|Realismo|Expressionismo|O Renascimento retomou referências greco-romanas nas artes e no pensamento.
+Em qual país começou a Revolução Industrial no século XVIII?|Grã-Bretanha|Brasil|China|Rússia|A industrialização pioneira ocorreu na Grã-Bretanha.
+Qual foi a primeira capital do Brasil colonial?|Salvador|Rio de Janeiro|Brasília|São Paulo|Salvador foi a primeira capital, de 1549 a 1763.
+A família real portuguesa chegou ao Brasil em qual ano?|1808|1822|1500|1889|A corte transferiu-se para o Brasil em 1808, no contexto das guerras napoleônicas.
+Qual participante da Inconfidência Mineira se tornou seu principal símbolo após ser executado?|Tiradentes|Dom Pedro II|José Bonifácio|Deodoro da Fonseca|Joaquim José da Silva Xavier, o Tiradentes, tornou-se o símbolo da Inconfidência.
+Qual evento de 1922 marcou o modernismo artístico brasileiro em São Paulo?|Semana de Arte Moderna|Revolta da Vacina|Diretas Já|Conjuração Baiana|A Semana de Arte Moderna ocorreu no Teatro Municipal de São Paulo.
+Em que ano foi promulgada a atual Constituição brasileira?|1988|1967|1946|1891|A Constituição vigente foi promulgada em 5 de outubro de 1988.
+Qual muro caiu em 1989, tornando-se símbolo do fim da Guerra Fria?|Muro de Berlim|Muralha da China|Muralha de Adriano|Muro de Jerusalém|A abertura do Muro de Berlim foi um marco da transformação política europeia.
+A Guerra Fria opôs principalmente quais potências?|Estados Unidos e União Soviética|Brasil e Argentina|Portugal e Espanha|França e Itália|Estados Unidos e União Soviética lideraram os principais blocos da Guerra Fria.
+Qual povo construiu Machu Picchu?|Incas|Astecas|Maias|Vikings|Machu Picchu é um sítio arqueológico da civilização inca, no Peru.
+Qual foi o nome do movimento pela eleição direta para presidente no Brasil em 1984?|Diretas Já|Tenentismo|Coluna Prestes|Revolução Praieira|Diretas Já mobilizou a sociedade por eleições presidenciais diretas.
+# geografia
+Qual país tem bandeira branca com um círculo vermelho central?|Japão|China|Canadá|Coreia do Sul|O círculo vermelho da bandeira japonesa representa o Sol.
+Qual é a capital da Argentina?|Buenos Aires|Montevidéu|Santiago|Lima|Buenos Aires é a capital argentina.
+Qual é a capital do Canadá?|Ottawa|Toronto|Vancouver|Montreal|Ottawa é a capital; Toronto é a cidade mais populosa do país.
+Qual é o maior oceano em área?|Pacífico|Atlântico|Índico|Ártico|O Pacífico é o maior oceano do planeta.
+Em qual continente está o deserto do Saara?|África|Ásia|Europa|Oceania|O Saara ocupa grande parte do norte da África.
+Qual linha imaginária divide a Terra em hemisférios Norte e Sul?|Equador|Meridiano de Greenwich|Trópico de Capricórnio|Círculo Polar Ártico|A linha do Equador corresponde à latitude zero.
+O meridiano de Greenwich é referência para qual medida?|Longitude|Altitude|Latitude|Profundidade|Greenwich corresponde à longitude zero.
+Qual país tem o maior território do mundo?|Rússia|Canadá|Brasil|Austrália|A Rússia é o maior país em extensão territorial.
+Qual é a capital de Minas Gerais?|Belo Horizonte|Uberlândia|Ouro Preto|Juiz de Fora|Belo Horizonte é a capital mineira desde 1897.
+Qual bioma brasileiro é caracterizado pela savana tropical?|Cerrado|Pampa|Mata Atlântica|Pantanal|O Cerrado apresenta vegetação de savana, com árvores frequentemente retorcidas e gramíneas.
+Qual bioma brasileiro é predominantemente associado ao clima semiárido?|Caatinga|Amazônia|Pampa|Pantanal|A Caatinga é adaptada às condições de seca do semiárido.
+Qual é a capital de Portugal?|Lisboa|Porto|Coimbra|Braga|Lisboa é a capital portuguesa.
+Qual cordilheira acompanha a porção oeste da América do Sul?|Andes|Alpes|Himalaia|Atlas|Os Andes se estendem ao longo da margem ocidental sul-americana.
+Qual país sul-americano não faz fronteira com o Brasil?|Chile|Peru|Bolívia|Colômbia|Chile e Equador são os países sul-americanos que não fazem fronteira com o Brasil.
+Em qual país fica a cidade de Sydney?|Austrália|Nova Zelândia|Canadá|África do Sul|Sydney fica na Austrália; a capital do país é Canberra.
+Qual é o movimento da Terra responsável pela sucessão de dias e noites?|Rotação|Translação|Precessão|Nutação|A rotação é o giro da Terra em torno de seu eixo.
+Qual gás é o mais abundante na atmosfera terrestre seca?|Nitrogênio|Oxigênio|Dióxido de carbono|Hidrogênio|O nitrogênio corresponde a cerca de 78% da atmosfera seca.
+Qual é a capital do Uruguai?|Montevidéu|Assunção|Quito|Bogotá|Montevidéu é a capital uruguaia.
+Qual país tem uma folha de bordo vermelha em sua bandeira?|Canadá|Peru|Suíça|Dinamarca|A folha de bordo é o símbolo central da bandeira canadense.
+Qual é a capital da Austrália?|Canberra|Sydney|Melbourne|Perth|Canberra foi escolhida como capital federal australiana.
+# português
+Qual palavra é proparoxítona?|Lâmpada|Café|Papel|Janela|A sílaba tônica de lâmpada é a antepenúltima: lâm-pa-da.
+Qual destas palavras é oxítona?|Café|Mesa|Árvore|Lápis|Café tem a última sílaba tônica.
+Qual é o plural de cidadão?|Cidadãos|Cidadões|Cidadães|Cidadãoses|O plural registrado na norma-padrão é cidadãos.
+Qual é o antônimo de generoso?|Egoísta|Solidário|Altruísta|Bondoso|Egoísta expressa sentido oposto a generoso nesse contexto.
+Qual é um sinônimo de veloz?|Rápido|Lento|Frágil|Distante|Rápido e veloz indicam grande velocidade.
+Na frase 'Maria leu o livro', qual é o sujeito?|Maria|Leu|O livro|Livro|Maria é o termo sobre o qual se declara a ação.
+Na frase 'Os alunos estudaram', qual é o verbo?|Estudaram|Os|Alunos|Os alunos|Estudaram expressa a ação no pretérito.
+Qual forma completa corretamente: 'Não sei ___ ele faltou'?|Por que|Porque|Porquê|Por quê|Em uma pergunta indireta, usa-se por que separado e sem acento nesse caso.
+Qual forma completa: 'Ele faltou ___ estava doente'?|Porque|Por que|Por quê|Porquê|Porque introduz a explicação da ausência.
+Qual palavra completa a pergunta: 'Você faltou por ___?'|Quê|Que|Quêem|Quém|No final de uma pergunta, usa-se por quê, com acento no quê.
+Qual frase usa corretamente o verbo haver com sentido de existir?|Há muitas pessoas na sala.|Haviam muitas pessoas na sala.|Houveram muitas pessoas na sala.|Hão muitas pessoas na sala.|Com sentido de existir, haver é impessoal e fica no singular.
+Qual frase apresenta concordância adequada na norma-padrão?|Faz dois anos que estudo.|Fazem dois anos que estudo.|Fizeram dois anos que estudo.|Fazem dois ano que estudo.|Fazer indicando tempo decorrido é impessoal e permanece no singular.
+Em 'Ela é uma flor', ocorre qual figura de linguagem?|Metáfora|Onomatopeia|Pleonasmo|Eufemismo|Há comparação implícita, sem conectivo comparativo.
+Em 'O vento sussurrou', ocorre qual figura de linguagem?|Personificação|Hipérbole|Antítese|Metonímia|Uma ação humana é atribuída ao vento.
+Qual palavra contém um dígrafo consonantal?|Chave|Pato|Casa|Bola|Em chave, ch representa um único fonema.
+Qual palavra é um substantivo abstrato?|Coragem|Cadeira|Pedra|Caneta|Coragem nomeia uma qualidade ou disposição, não um objeto concreto.
+Qual termo é um pronome pessoal do caso reto?|Nós|Meu|Este|Cujo|Nós é pronome pessoal reto da primeira pessoa do plural.
+Qual palavra é uma conjunção adversativa?|Mas|Porque|Quando|Conforme|Mas estabelece oposição entre ideias.
+Qual expressão está grafada corretamente para indicar oposição?|Ao contrário|Aocontrário|Ao contráriu|A ocontrário|A expressão é formada pelas palavras ao e contrário.
+Qual frase emprega corretamente a crase?|Vou à escola.|Vou à pé.|Entreguei à ele.|Cheguei à uma conclusão.|Em vou à escola, há encontro da preposição a com o artigo a.
+# matemática
+Quanto é 15% de 200?|30|15|20|45|Multiplicando 200 por 0,15, obtemos 30.
+Quanto é 7 × 8?|56|54|48|64|Sete grupos de oito totalizam 56.
+Quanto é 144 dividido por 12?|12|10|14|16|Como 12 × 12 = 144, o quociente é 12.
+Qual é a raiz quadrada positiva de 81?|9|8|7|18|Nove ao quadrado é 81.
+Quanto é 3² + 4²?|25|14|49|12|3² = 9 e 4² = 16; a soma é 25.
+Qual é a área de um quadrado de lado 5 cm?|25 cm²|20 cm²|10 cm²|15 cm²|A área do quadrado é lado vezes lado: 5 × 5.
+Qual é o perímetro de um retângulo com lados de 3 cm e 7 cm?|20 cm|21 cm|10 cm|14 cm|O perímetro é 2 × (3 + 7) = 20.
+Quanto é 1/2 + 1/4?|3/4|2/6|1/6|2/4|Convertendo 1/2 em 2/4, a soma é 3/4.
+Qual é o valor de x em 2x + 6 = 14?|4|3|5|7|Subtraindo 6 e dividindo por 2, x = 4.
+Qual é a média aritmética de 6, 8 e 10?|8|7|9|24|A soma é 24; dividida por três valores, resulta em 8.
+Qual é o próximo número da sequência 2, 4, 8, 16...?|32|24|30|18|Cada termo é o dobro do anterior.
+Quanto vale 0,25 em porcentagem?|25%|2,5%|250%|0,25%|Para converter em porcentagem, multiplica-se por 100.
+Um produto de R$ 100 recebe desconto de 20%. Qual é o preço final?|R$ 80|R$ 120|R$ 20|R$ 90|O desconto é de R$ 20, restando R$ 80.
+Qual é a probabilidade de sair cara ao lançar uma moeda ideal?|1/2|1/3|1/4|1|Há dois resultados equiprováveis; cara é um deles.
+Quantos graus tem a soma dos ângulos internos de um triângulo plano euclidiano?|180°|90°|270°|360°|Na geometria euclidiana, os três ângulos internos somam 180 graus.
+Qual destes números é primo?|13|15|21|27|Treze tem exatamente dois divisores positivos: 1 e 13.
+Qual é o mínimo múltiplo comum de 4 e 6?|12|24|10|2|Doze é o menor múltiplo positivo comum aos dois números.
+Qual é o máximo divisor comum de 18 e 24?|6|3|9|12|Seis é o maior inteiro positivo que divide ambos.
+Quanto é 2³?|8|6|9|12|2³ significa 2 × 2 × 2.
+Um carro percorre 120 km em 2 horas. Qual é sua velocidade média?|60 km/h|120 km/h|240 km/h|30 km/h|A velocidade média é distância dividida pelo tempo: 120/2.
+# artes
+Quem pintou a Mona Lisa?|Leonardo da Vinci|Pablo Picasso|Claude Monet|Vincent van Gogh|A Mona Lisa é uma pintura de Leonardo da Vinci.
+Quem pintou A Noite Estrelada, de 1889?|Vincent van Gogh|Salvador Dalí|Michelangelo|Rembrandt|Van Gogh pintou a obra em 1889, em Saint-Rémy.
+Quem pintou Abaporu?|Tarsila do Amaral|Anita Malfatti|Frida Kahlo|Lygia Clark|Abaporu, de 1928, é uma obra de Tarsila do Amaral.
+Qual artista pintou Guernica?|Pablo Picasso|Diego Rivera|Paul Cézanne|Henri Matisse|Picasso produziu Guernica em 1937, em reação ao bombardeio da cidade.
+Qual artista é conhecido pelos relógios derretidos em A Persistência da Memória?|Salvador Dalí|Claude Monet|Candido Portinari|Edvard Munch|Os relógios derretidos são um elemento célebre da obra surrealista de Dalí.
+Qual escultor brasileiro ficou conhecido como Aleijadinho?|Antônio Francisco Lisboa|Victor Brecheret|Bruno Giorgi|Alfredo Ceschiatti|Antônio Francisco Lisboa atuou na escultura e arquitetura do período colonial.
+Qual movimento artístico está associado a Claude Monet?|Impressionismo|Cubismo|Surrealismo|Dadaísmo|Monet foi um dos principais nomes do impressionismo.
+Qual movimento explorou a fragmentação geométrica das formas com Picasso e Braque?|Cubismo|Barroco|Romantismo|Rococó|O cubismo representou objetos por múltiplos pontos de vista e planos geométricos.
+Qual compositor ficou conhecido por suas nove sinfonias, incluindo a Nona com coro?|Ludwig van Beethoven|Antonio Vivaldi|Frédéric Chopin|Heitor Villa-Lobos|A Nona Sinfonia de Beethoven inclui a célebre parte coral da Ode à Alegria.
+Quem compôs As Quatro Estações?|Antonio Vivaldi|Johann Strauss II|Richard Wagner|Erik Satie|As Quatro Estações são quatro concertos para violino de Vivaldi.
+Qual brasileiro compôs as Bachianas Brasileiras?|Heitor Villa-Lobos|Tom Jobim|Noel Rosa|Cartola|Villa-Lobos compôs a série unindo referências brasileiras e de Bach.
+Qual expressão artística utiliza principalmente o corpo em movimentos ritmados?|Dança|Gravura|Escultura|Fotografia|A dança organiza movimentos corporais como linguagem artística.
+Como se chama a técnica de criar imagens pela combinação de pequenos fragmentos?|Mosaico|Afresco|Aquarela|Litografia|Mosaicos unem pequenas peças, como pedras, cerâmicas ou vidros.
+Qual técnica de pintura é tradicionalmente executada sobre reboco ainda úmido?|Afresco|Colagem|Xilogravura|Fotomontagem|O afresco aplica pigmentos sobre argamassa fresca.
+Qual artista mexicano é conhecido por numerosos autorretratos?|Frida Kahlo|Tarsila do Amaral|Berthe Morisot|Camille Claudel|Os autorretratos são parte marcante da produção de Frida Kahlo.
+Em qual cidade fica o Museu do Louvre?|Paris|Roma|Madri|Londres|O Louvre está em Paris, na França.
+Qual arquiteto projetou importantes edifícios de Brasília, como o Congresso Nacional?|Oscar Niemeyer|Antoni Gaudí|Frank Lloyd Wright|Le Corbusier|Niemeyer projetou diversos edifícios monumentais da capital.
+Qual arte trabalha a criação de formas tridimensionais, por modelagem ou entalhe?|Escultura|Poesia|Música|Cinema|A escultura cria volumes e formas no espaço.
+Qual artista pintou O Grito?|Edvard Munch|Gustav Klimt|Wassily Kandinsky|Paul Klee|O Grito é uma obra célebre do norueguês Edvard Munch.
+Qual instrumento possui teclas, cordas e martelos em sua versão acústica tradicional?|Piano|Órgão de tubos|Acordeão|Flauta|No piano, as teclas acionam martelos que percutem cordas.
+# literatura
+Quem escreveu Dom Casmurro?|Machado de Assis|José de Alencar|Jorge Amado|Graciliano Ramos|Dom Casmurro é um romance de Machado de Assis.
+Quem escreveu O Pequeno Príncipe?|Antoine de Saint-Exupéry|Jules Verne|Victor Hugo|Alexandre Dumas|Saint-Exupéry publicou O Pequeno Príncipe em 1943.
+Quem escreveu Os Lusíadas?|Luís de Camões|Fernando Pessoa|José Saramago|Eça de Queirós|Os Lusíadas é o poema épico de Camões publicado em 1572.
+Quem escreveu Grande Sertão: Veredas?|João Guimarães Rosa|Carlos Drummond de Andrade|Manuel Bandeira|Lima Barreto|O romance de Guimarães Rosa foi publicado em 1956.
+Quem escreveu Vidas Secas?|Graciliano Ramos|Jorge Amado|José Lins do Rego|Érico Veríssimo|Vidas Secas retrata uma família de retirantes e é obra de Graciliano Ramos.
+Qual autor criou Sherlock Holmes?|Arthur Conan Doyle|Agatha Christie|Edgar Allan Poe|Bram Stoker|Conan Doyle criou o detetive Sherlock Holmes.
+Quem escreveu Romeu e Julieta?|William Shakespeare|Miguel de Cervantes|Dante Alighieri|Homero|A tragédia dos amantes de Verona é de Shakespeare.
+Quem escreveu Dom Quixote?|Miguel de Cervantes|Gabriel García Márquez|Jorge Luis Borges|Pablo Neruda|Cervantes publicou o romance em duas partes, em 1605 e 1615.
+Quem escreveu Cem Anos de Solidão?|Gabriel García Márquez|Julio Cortázar|Mario Vargas Llosa|Isabel Allende|O romance acompanha a família Buendía em Macondo.
+Qual escritora brasileira publicou A Hora da Estrela?|Clarice Lispector|Cecília Meireles|Lygia Fagundes Telles|Rachel de Queiroz|A Hora da Estrela, de Clarice Lispector, apresenta a personagem Macabéa.
+Quem escreveu Capitães da Areia?|Jorge Amado|Machado de Assis|Aluísio Azevedo|José de Alencar|O romance de Jorge Amado retrata meninos em situação de rua em Salvador.
+Quem escreveu Iracema?|José de Alencar|Gonçalves Dias|Castro Alves|Álvares de Azevedo|Iracema é um romance indianista de José de Alencar.
+Qual poeta é conhecido como Poeta dos Escravos?|Castro Alves|Olavo Bilac|Augusto dos Anjos|Cruz e Sousa|Castro Alves escreveu poemas de temática abolicionista, como O Navio Negreiro.
+Quem escreveu o poema Canção do Exílio, iniciado por 'Minha terra tem palmeiras'?|Gonçalves Dias|Castro Alves|Manuel Bandeira|Fernando Pessoa|Canção do Exílio é um poema de Gonçalves Dias.
+Quem escreveu Memórias Póstumas de Brás Cubas?|Machado de Assis|Lima Barreto|Raul Pompeia|José de Alencar|O romance é narrado pelo defunto autor Brás Cubas.
+Quem escreveu Quarto de Despejo?|Carolina Maria de Jesus|Conceição Evaristo|Clarice Lispector|Cora Coralina|Carolina Maria de Jesus registrou seu cotidiano em diários publicados como Quarto de Despejo.
+Qual destes nomes é um heterônimo de Fernando Pessoa?|Álvaro de Campos|Brás Cubas|Bentinho|Riobaldo|Álvaro de Campos é um dos heterônimos de Fernando Pessoa.
+Qual gênero literário apresenta tradicionalmente uma moral e personagens animais humanizados?|Fábula|Epopeia|Soneto|Crônica policial|Fábulas usam frequentemente animais para transmitir uma reflexão moral.
+Quantos versos tem um soneto tradicional?|14|10|12|16|O soneto tradicional tem quatorze versos, frequentemente em dois quartetos e dois tercetos.
+Quem escreveu A Metamorfose?|Franz Kafka|Fiódor Dostoiévski|Liev Tolstói|Albert Camus|Kafka escreveu a narrativa em que Gregor Samsa sofre uma transformação inesperada.
+# variedades
+Qual é a fórmula química da água?|H₂O|CO₂|O₂|NaCl|A molécula de água possui dois átomos de hidrogênio e um de oxigênio.
+Qual planeta é conhecido como Planeta Vermelho?|Marte|Vênus|Júpiter|Mercúrio|Óxidos de ferro no solo dão a Marte sua coloração avermelhada.
+Qual é a estrela do Sistema Solar?|Sol|Sirius|Vega|Polaris|O Sol é a estrela em torno da qual orbitam os planetas do nosso sistema.
+Qual órgão humano bombeia o sangue?|Coração|Fígado|Estômago|Pulmão|O coração impulsiona o sangue pela circulação.
+Qual órgão é principalmente responsável pela filtração do sangue e formação da urina?|Rim|Pâncreas|Baço|Vesícula biliar|Os rins filtram o sangue e participam da formação da urina.
+Qual processo permite às plantas produzir matéria orgânica usando energia luminosa?|Fotossíntese|Fermentação alcoólica|Destilação|Evaporação|Na fotossíntese, a energia luminosa é usada na produção de compostos orgânicos.
+Qual destes animais é um mamífero?|Golfinho|Tubarão|Sardinha|Polvo|Golfinhos respiram por pulmões e amamentam seus filhotes.
+Qual é o maior planeta do Sistema Solar?|Júpiter|Saturno|Netuno|Terra|Júpiter é o maior planeta em massa e volume do Sistema Solar.
+Qual instrumento mede a temperatura?|Termômetro|Barômetro|Anemômetro|Higrômetro|O termômetro mede a temperatura.
+Qual instrumento mede a pressão atmosférica?|Barômetro|Termômetro|Bússola|Cronômetro|O barômetro mede a pressão do ar.
+Qual unidade do Sistema Internacional mede a corrente elétrica?|Ampere|Volt|Ohm|Watt|O ampere é a unidade de corrente elétrica; volt mede diferença de potencial.
+Qual destes materiais é normalmente um bom condutor de eletricidade?|Cobre|Borracha|Vidro seco|Plástico|O cobre é um metal muito utilizado em fios elétricos.
+Qual é o estado físico da água em forma de gelo?|Sólido|Líquido|Gasoso|Plasma|O gelo corresponde ao estado sólido da água.
+Como se chama a passagem direta do estado sólido para o gasoso?|Sublimação|Fusão|Condensação|Solidificação|A sublimação ocorre sem passagem pelo estado líquido.
+Qual elemento químico tem símbolo O?|Oxigênio|Ouro|Ósmio|Prata|O símbolo do oxigênio é O; o do ouro é Au.
+Qual elemento químico tem símbolo Fe?|Ferro|Flúor|Fósforo|Frâncio|Fe vem do latim ferrum, referente ao ferro.
+Quantos lados tem um hexágono?|6|5|7|8|O prefixo hexa indica seis.
+Qual equipamento transforma energia solar diretamente em eletricidade pelo efeito fotovoltaico?|Painel fotovoltaico|Aquecedor solar térmico|Turbina a vapor|Motor a combustão|Células fotovoltaicas convertem luz em eletricidade.
+Na informática, o que é uma senha forte?|Uma combinação longa, única e difícil de prever|O próprio nome|A sequência 123456|A data de nascimento|Comprimento e imprevisibilidade ajudam a proteger a senha; evitar reutilização também é importante.
+Qual ação ajuda a reduzir a geração de resíduos?|Reutilizar materiais antes de descartá-los|Trocar objetos úteis diariamente|Usar mais descartáveis|Misturar todo lixo perigoso ao comum|Reutilizar prolonga a vida útil de produtos e reduz a necessidade de descarte.
+# esportes
+Qual país venceu a primeira Copa do Mundo masculina de futebol, em 1930?|Uruguai|Brasil|Argentina|Itália|O Uruguai sediou e venceu a edição inaugural de 1930.
+Qual esporte usa um disco chamado puck?|Hóquei no gelo|Tênis|Badminton|Voleibol|No hóquei no gelo, os jogadores disputam um disco de borracha chamado puck.
+Em qual modalidade se disputa o torneio de Wimbledon?|Tênis|Golfe|Rúgbi|Críquete|Wimbledon é um dos quatro torneios de Grand Slam do tênis.
+Quantos jogadores por equipe atuam em quadra no basquete tradicional?|5|6|7|11|Cada equipe atua com cinco jogadores em quadra.
+Qual esporte utiliza um alvo com anéis concêntricos e flechas?|Tiro com arco|Esgrima|Golfe|Remo|No tiro com arco, a pontuação depende da região do alvo atingida.
+Qual aparelho é usado na ginástica artística masculina, mas não na feminina olímpica?|Cavalo com alças|Trave|Barras assimétricas|Fita|O cavalo com alças integra o programa masculino da ginástica artística.
+# religião
+Qual símbolo de seis pontas é associado ao judaísmo?|Estrela de Davi|Cruz latina|Lua crescente exclusivamente|Roda do dharma|A Estrela de Davi é um símbolo amplamente associado à identidade judaica.
+Como é chamado o local de culto sikh?|Gurdwara|Sinagoga|Mesquita|Catedral|O gurdwara é local de reunião e culto do sikhismo.
+A roda do dharma é um símbolo associado especialmente a qual tradição?|Budismo|Luteranismo|Judaísmo|Espiritismo kardecista|A roda representa ensinamentos e o caminho budista em diversas tradições.
+Qual nome se refere ao sábado de descanso religioso judaico?|Shabat|Ramadã|Advento|Diwali|O Shabat é observado do pôr do sol de sexta-feira ao de sábado.
+Qual celebração hindu é conhecida como festival das luzes?|Diwali|Pessach|Pentecostes|Vesak|Diwali é celebrado com luzes e possui sentidos variados nas tradições indianas.
+Qual tradição tem Zaratrusta como figura central de sua origem?|Zoroastrismo|Taoismo|Sikhismo|Xintoísmo|Zaratrusta é o profeta associado ao zoroastrismo.
+# história
+Em qual ano começou a Revolução Russa que levou os bolcheviques ao poder?|1917|1789|1848|1945|A Revolução de Outubro ocorreu em 1917, no calendário então usado na Rússia.
+Quem foi o primeiro presidente do Brasil?|Deodoro da Fonseca|Floriano Peixoto|Prudente de Morais|Getúlio Vargas|Deodoro assumiu a chefia do governo após a Proclamação da República.
+Qual navegador comandou a expedição portuguesa que chegou ao Brasil em 1500?|Pedro Álvares Cabral|Vasco da Gama|Fernão de Magalhães|Bartolomeu Dias|A expedição de Cabral chegou ao litoral brasileiro em abril de 1500.
+Em qual cidade ocorreu a Revolta da Vacina, em 1904?|Rio de Janeiro|Salvador|Recife|Porto Alegre|A revolta ocorreu no Rio de Janeiro, então capital federal.
+A queda de Constantinopla em 1453 ocorreu com a conquista por qual império?|Otomano|Inca|Asteca|Carolíngio|A cidade foi conquistada pelos otomanos, sob Mehmed II.
+Qual líder sul-africano se tornou símbolo da luta contra o apartheid?|Nelson Mandela|Winston Churchill|Charles de Gaulle|Simón Bolívar|Mandela lutou contra a segregação e tornou-se presidente da África do Sul.
+# geografia
+Qual é a capital do Peru?|Lima|Quito|La Paz|Caracas|Lima é a capital peruana, situada na costa do Pacífico.
+Em qual continente fica a Noruega?|Europa|África|Ásia|Oceania|A Noruega é um país europeu da região escandinava.
+Qual é a capital da França?|Paris|Lyon|Marselha|Nice|Paris é a capital francesa.
+Qual estado brasileiro tem Manaus como capital?|Amazonas|Pará|Acre|Roraima|Manaus é a capital do Amazonas.
+Qual oceano banha a costa brasileira?|Atlântico|Pacífico|Índico|Ártico|O litoral brasileiro está voltado para o oceano Atlântico.
+Qual país tem Roma como capital?|Itália|Grécia|Espanha|Portugal|Roma é a capital italiana.
+# português
+Qual palavra está grafada corretamente?|Exceção|Esceção|Excessão|Eceção|A grafia correta é exceção, com xc e ç.
+Qual é o feminino de ator?|Atriz|Atora como única forma-padrão|Atorina|Atoriza|Atriz é o feminino de ator na norma-padrão.
+Em 'Ele chegou cedo', a palavra cedo indica qual circunstância?|Tempo|Lugar|Companhia|Instrumento|Cedo é advérbio de tempo.
+Qual destas palavras é um artigo definido?|O|Um|Alguém|Meu|O é artigo definido; um é artigo indefinido.
+Qual sinal encerra normalmente uma pergunta direta?|Ponto de interrogação|Ponto e vírgula|Vírgula|Dois-pontos|O ponto de interrogação marca a pergunta direta.
+Qual palavra apresenta encontro consonantal, e não dígrafo, no início?|Prato|Chuva|Ninho|Filho|Em pr, os dois sons consonantais são preservados; ch, nh e lh são dígrafos.
+# matemática
+Quanto é 20% de 350?|70|35|60|80|20% equivale a um quinto; 350 dividido por cinco é 70.
+Qual é o dobro de 37?|74|64|77|72|Dobrar significa multiplicar por dois: 37 × 2 = 74.
+Qual é a metade de 150?|75|50|70|85|150 dividido por dois é 75.
+Quanto é 5! (cinco fatorial)?|120|25|60|100|5! = 5 × 4 × 3 × 2 × 1 = 120.
+Qual é o volume de um cubo de aresta 3 cm?|27 cm³|9 cm³|18 cm³|36 cm³|O volume do cubo é a aresta elevada ao cubo: 3³ = 27.
+Quanto é 10 elevado a zero?|1|0|10|100|Todo número não nulo elevado a zero é igual a um.
+# artes
+Qual técnica de gravura utiliza tradicionalmente uma matriz de madeira?|Xilogravura|Aquarela|Afresco|Mosaico|A xilogravura emprega madeira entalhada como matriz.
+Qual artista brasileiro pintou os painéis Guerra e Paz da sede da ONU?|Candido Portinari|Di Cavalcanti|Alfredo Volpi|Hélio Oiticica|Guerra e Paz são painéis de Portinari instalados na sede da ONU.
+Qual artista é conhecido por suas bandeirinhas em pinturas?|Alfredo Volpi|Victor Meirelles|Pedro Américo|Aleijadinho|As bandeirinhas são um motivo célebre na obra de Volpi.
+Qual compositor criou a ópera O Guarani?|Carlos Gomes|Heitor Villa-Lobos|Pixinguinha|Ernesto Nazareth|A ópera de Carlos Gomes é baseada no romance de José de Alencar.
+Qual instrumento de cordas é normalmente tocado com arco e apoiado no ombro?|Violino|Violoncelo|Contrabaixo acústico orquestral|Harpa|O violino é apoiado entre o ombro e o queixo e pode ser tocado com arco.
+Qual arte combina imagens em movimento, som e montagem?|Cinema|Escultura|Cerâmica|Xilogravura|O cinema é uma linguagem audiovisual que articula esses elementos.
+# literatura
+Quem escreveu O Cortiço?|Aluísio Azevedo|Machado de Assis|José de Alencar|Lima Barreto|O Cortiço é um romance naturalista de Aluísio Azevedo.
+Quem escreveu Triste Fim de Policarpo Quaresma?|Lima Barreto|Raul Pompeia|Jorge Amado|Érico Veríssimo|Lima Barreto criou o personagem Policarpo Quaresma.
+Quem escreveu O Quinze?|Rachel de Queiroz|Cecília Meireles|Cora Coralina|Clarice Lispector|O Quinze retrata a seca de 1915 e é de Rachel de Queiroz.
+Quem escreveu Auto da Compadecida?|Ariano Suassuna|Nelson Rodrigues|Dias Gomes|Plínio Marcos|A peça de Suassuna reúne elementos populares e do teatro religioso.
+Qual escritor criou o universo de O Senhor dos Anéis?|J. R. R. Tolkien|C. S. Lewis|George Orwell|H. G. Wells|Tolkien criou a Terra-média e a narrativa de O Senhor dos Anéis.
+Quem escreveu 1984?|George Orwell|Aldous Huxley|Ray Bradbury|Isaac Asimov|1984 é o romance distópico de George Orwell.
+# variedades
+Qual satélite natural orbita a Terra?|Lua|Fobos|Titã|Europa|A Lua é o satélite natural da Terra.
+Qual é o planeta mais próximo do Sol?|Mercúrio|Vênus|Terra|Marte|Mercúrio possui a órbita mais próxima do Sol.
+Qual destes animais é um réptil?|Tartaruga|Sapo|Golfinho|Pinguim|Tartarugas pertencem ao grupo dos répteis.
+Qual destes animais é um anfíbio?|Sapo|Lagarto|Cobra|Jacaré|Sapos são anfíbios, grupo distinto dos répteis.
+Qual processo transforma um líquido em sólido?|Solidificação|Fusão|Evaporação|Sublimação|Na solidificação, o material passa ao estado sólido.
+Qual processo transforma um sólido em líquido?|Fusão|Condensação|Solidificação|Deposição|A fusão é a passagem do estado sólido ao líquido.
+Qual dispositivo armazena energia química e a fornece como energia elétrica?|Bateria|Lâmpada incandescente|Resistor comum|Interruptor mecânico|Baterias usam reações eletroquímicas para fornecer energia elétrica.
+Qual unidade do Sistema Internacional mede força?|Newton|Joule|Watt|Pascal|O newton é a unidade de força; joule mede energia.
+Qual unidade do Sistema Internacional mede energia?|Joule|Ampere|Volt|Hertz|O joule é a unidade de energia e trabalho.
+Qual unidade do Sistema Internacional mede frequência?|Hertz|Newton|Coulomb|Kelvin|Um hertz corresponde a um ciclo por segundo.
+Qual cientista formulou a teoria da relatividade geral?|Albert Einstein|Isaac Newton|Galileu Galilei|Charles Darwin|Einstein apresentou a relatividade geral em 1915.
+Qual cientista é associado à teoria da evolução por seleção natural e ao livro A Origem das Espécies?|Charles Darwin|Louis Pasteur|Nikola Tesla|Michael Faraday|Darwin publicou A Origem das Espécies em 1859.

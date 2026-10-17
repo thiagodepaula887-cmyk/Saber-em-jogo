@@ -1,0 +1,39 @@
+{
+  "total": 400,
+  "modules": {
+    "geral": 240,
+    "oab": 160
+  },
+  "categories": {
+    "esportes": 26,
+    "religião": 26,
+    "história": 26,
+    "geografia": 26,
+    "português": 26,
+    "matemática": 26,
+    "artes": 26,
+    "literatura": 26,
+    "variedades": 32,
+    "Ética Profissional": 8,
+    "Direito Constitucional": 8,
+    "Direito Civil": 8,
+    "Processo Civil": 8,
+    "Direito Penal": 8,
+    "Processo Penal": 8,
+    "Direito do Trabalho": 8,
+    "Processo do Trabalho": 8,
+    "Direito Administrativo": 8,
+    "Direito Tributário": 8,
+    "Direito Empresarial": 8,
+    "Direito do Consumidor": 8,
+    "Estatuto da Criança e do Adolescente": 8,
+    "Direito Ambiental": 8,
+    "Direito Internacional": 8,
+    "Direito Eleitoral": 8,
+    "Direito Previdenciário": 8,
+    "Direito Financeiro": 8,
+    "Direitos Humanos": 8,
+    "Filosofia do Direito": 8
+  },
+  "sha256": "6c6c7a91526443ca52f18f0a6bc0cb53023efb1d75966850809cea4b857a2bcc"
+}
