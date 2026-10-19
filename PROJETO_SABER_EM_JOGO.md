@@ -86,3 +86,10 @@ As fontes editoriais são `web/content/general.txt` e `web/content/oab.txt`. O g
 Implementados na web e no APK offline: modo Desafio com três vidas, pontuação por fase e ajuda 50/50; cronômetro opcional de 30 segundos; caderno de erros; desafio diário de dez perguntas com sequência de dias; sons opcionais. O projeto Expo continua separado, na base anterior.
 
 Verificações: cinco testes unitários de motor, smoke test do fluxo com DOM simulado (três erros, expiração, duplicidade, revisão e conclusão diária), assinatura APK e alinhamento. Certificado comparado ao da versão 0.3: idêntico. Atualização instalável por cima da anterior, preservando os dados locais; não desinstalar antes. Ainda sem teste em aparelho real.
+
+
+## Versão 0.5 — diagnóstico e revisão de 40 pontos
+
+Recuperação de inicialização, watchdog, validação de banco e build limpo. Consulte VALIDACAO_40_PONTOS.md e quality/results.json: 36 verificações aprovadas; quatro pendentes. A causa da não abertura no Samsung ainda não foi confirmada. Atualização em aparelho e publicação não foram validadas.
+
+APK atual: https://drive.google.com/file/d/1UgnHCt-2-q-cXM5NlxHtG1GVMoikHhq0/view?usp=drivesdk

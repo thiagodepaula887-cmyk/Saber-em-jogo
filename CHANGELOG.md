@@ -1,3 +1,10 @@
+# 0.5.0-teste — 2026-10-19
+
+- Recuperação de inicialização e renderer, diagnóstico copiável e watchdog.
+- Validação de banco e testes de falhas de carga e armazenamento.
+- Build limpo, versionCode 5 e certificado de teste preservado.
+- Lista de 40 pontos: 36 aprovados por execução/inspeção e quatro pendentes; sem reprodução em Samsung.
+
 # Histórico de versões
 
 ## 0.4 — 16/10/2026

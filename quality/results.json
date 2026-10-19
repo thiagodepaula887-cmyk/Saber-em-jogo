@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Sintaxe JavaScript do aplicativo",
+    "status": "APROVADO",
+    "kind": "execução"
+  },
+  {
+    "name": "Sintaxe do motor de jogo",
+    "status": "APROVADO",
+    "kind": "execução"
+  },
+  {
+    "name": "Banco completo passa pela validação de produção",
+    "status": "APROVADO",
+    "kind": "execução"
+  },
+  {
+    "name": "IDs das 400 questões são únicos",
+    "status": "APROVADO",
+    "kind": "dados"
+  },
+  {
+    "name": "Enunciados das 400 questões são únicos",
+    "status": "APROVADO",
+    "kind": "dados"
+  },
+  {
+    "name": "Módulo OAB contém 160 questões",
+    "status": "APROVADO",
+    "kind": "dados"
+  },
+  {
+    "name": "Módulo geral contém 240 questões",
+    "status": "APROVADO",
+    "kind": "dados"
+  },
+  {
+    "name": "OAB cobre 20 disciplinas",
+    "status": "APROVADO",
+    "kind": "dados"
+  },
+  {
+    "name": "Trivia cobre 9 categorias",
+    "status": "APROVADO",
+    "kind": "dados"
+  },
+  {
+    "name": "Questões OAB são identificadas como autorais",
+    "status": "APROVADO",
+    "kind": "dados"
+  },
+  {
+    "name": "Referências e fontes OAB presentes",
+    "status": "APROVADO",
+    "kind": "dados"
+  },
+  {
+    "name": "Banco vazio é rejeitado",
+    "status": "APROVADO",
+    "kind": "injeção de falha"
+  },
+  {
+    "name": "ID duplicado é rejeitado",
+    "status": "APROVADO",
+    "kind": "injeção de falha"
+  },
+  {
+    "name": "Gabarito fora do intervalo é rejeitado",
+    "status": "APROVADO",
+    "kind": "injeção de falha"
+  },
+  {
+    "name": "Quantidade incorreta de alternativas é rejeitada",
+    "status": "APROVADO",
+    "kind": "injeção de falha"
+  },
+  {
+    "name": "Alternativas duplicadas são rejeitadas",
+    "status": "APROVADO",
+    "kind": "injeção de falha"
+  },
+  {
+    "name": "Versão inválida é rejeitada",
+    "status": "APROVADO",
+    "kind": "injeção de falha"
+  },
+  {
+    "name": "Fonte com protocolo inseguro é rejeitada",
+    "status": "APROVADO",
+    "kind": "injeção de falha"
+  },
+  {
+    "name": "Desafio diário repetível e sem duplicação",
+    "status": "APROVADO",
+    "kind": "execução"
+  },
+  {
+    "name": "Desafio diário inclui cinco questões por módulo",
+    "status": "APROVADO",
+    "kind": "execução"
+  },
+  {
+    "name": "Caderno remove erro após acerto",
+    "status": "APROVADO",
+    "kind": "execução"
+  },
+  {
+    "name": "Ajuda 50/50 preserva gabarito em todas as posições",
+    "status": "APROVADO",
+    "kind": "execução"
+  },
+  {
+    "name": "Erros não pontuam e pontuação cresce",
+    "status": "APROVADO",
+    "kind": "execução"
+  },
+  {
+    "name": "Sequência diária atravessa virada do ano",
+    "status": "APROVADO",
+    "kind": "execução"
+  },
+  {
+    "name": "Fluxos: resposta dupla, três erros, tempo e diário",
+    "status": "APROVADO",
+    "kind": "simulação de DOM"
+  },
+  {
+    "name": "Assets JavaScript e JSON iguais no APK e web",
+    "status": "APROVADO",
+    "kind": "comparação de bytes"
+  },
+  {
+    "name": "Tela inicial contém recuperação sem JavaScript externo",
+    "status": "APROVADO",
+    "kind": "revisão estrutural"
+  },
+  {
+    "name": "Inicialização captura exceções nativas e incompatibilidade",
+    "status": "APROVADO",
+    "kind": "revisão estrutural"
+  },
+  {
+    "name": "Inicialização possui limite e confirmação de prontidão",
+    "status": "APROVADO",
+    "kind": "revisão estrutural"
+  },
+  {
+    "name": "Falhas do renderer e navegação têm diagnóstico",
+    "status": "APROVADO",
+    "kind": "revisão estrutural"
+  },
+  {
+    "name": "Ciclo de vida cancela callbacks e protege WebView ausente",
+    "status": "APROVADO",
+    "kind": "revisão estrutural"
+  },
+  {
+    "name": "Manifest declara launcher exportado e Android mínimo",
+    "status": "APROVADO",
+    "kind": "revisão estrutural"
+  },
+  {
+    "name": "Pacote preservado e versão incrementada para atualização",
+    "status": "APROVADO",
+    "kind": "revisão estrutural"
+  },
+  {
+    "name": "WebView bloqueia arquivo, conteúdo e conteúdo misto",
+    "status": "APROVADO",
+    "kind": "revisão estrutural"
+  },
+  {
+    "name": "APK assinado com v2/v3 e certificado compatível",
+    "status": "APROVADO",
+    "kind": "ferramenta Android"
+  },
+  {
+    "name": "Alinhamento e assets completos do APK final",
+    "status": "APROVADO",
+    "kind": "ferramenta Android"
+  },
+  {
+    "name": "Instalação e abertura pelo ícone no Samsung A53/Android 16",
+    "status": "PENDENTE",
+    "kind": "aparelho/publicação"
+  },
+  {
+    "name": "Uso offline, suspensão e retorno no Android real",
+    "status": "PENDENTE",
+    "kind": "aparelho/publicação"
+  },
+  {
+    "name": "Atualização instalada preserva histórico no aparelho",
+    "status": "PENDENTE",
+    "kind": "aparelho/publicação"
+  },
+  {
+    "name": "Revisão editorial jurídica integral e validação para publicação nas lojas",
+    "status": "PENDENTE",
+    "kind": "aparelho/publicação"
+  }
+]
