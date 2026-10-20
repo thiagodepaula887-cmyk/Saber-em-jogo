@@ -1,3 +1,10 @@
+# 0.6.0-teste — 2026-10-20
+
+- Seis simulados OAB: 42º ao 47º, PDF oficial tipo 1 + cartão de 80 respostas.
+- Gabaritos definitivos, anuladas, meta 40/80, prazo opcional de cinco horas e retomada.
+- Resultado bloqueado para edição e opção refazer; fontes em SIMULADOS_OAB.md.
+- 19 resultados de testes Node aprovados e APK verificado; teste real em Android pendente.
+
 # 0.5.0-teste — 2026-10-19
 
 - Recuperação de inicialização e renderer, diagnóstico copiável e watchdog.

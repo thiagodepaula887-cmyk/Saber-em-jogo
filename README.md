@@ -1,3 +1,7 @@
+## Atualização 0.6 — simulados OAB
+
+Os exames 42º a 47º estão acessíveis na capa: PDF oficial branco/tipo 1 e cartão de 80 respostas com correção definitiva, anuladas, prazo opcional e retomada. Consulte [SIMULADOS_OAB.md](SIMULADOS_OAB.md). O APK contém cartão/gabaritos; leitura do caderno usa o PDF externo. Teste de instalação em aparelho continua pendente.
+
 # Saber em Jogo
 
 Aplicativo de perguntas e respostas: 400 questões autorais, sendo 160 jurídicas em 20 disciplinas e 240 gerais em nove categorias.

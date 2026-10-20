@@ -19,3 +19,6 @@ A chave de teste não está neste repositório e permanece no backup privado do 
 Mudanças no conteúdo offline exigem nova compilação e instalação de atualização. Desinstalar apaga o progresso local.
 
 Versão 0.4: mesmo pacote e certificado de teste da 0.3. Instale por cima da versão anterior para preservar o progresso. Não desinstale antes de atualizar.
+
+
+Versão 0.6: simulados oficiais 42–47 com cartão e gabarito embarcados. PDFs oficiais abrem no navegador externo e exigem conexão para obter o caderno. Mantidos pacote e certificado de teste.

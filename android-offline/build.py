@@ -20,7 +20,7 @@ with zipfile.ZipFile(build/'base.apk','a',zipfile.ZIP_DEFLATED) as apk:apk.write
 run(bt/'zipalign','-f','-p','4',build/'base.apk',build/'aligned.apk')
 key=root/'test-signing.keystore'
 if not key.exists():run('keytool','-genkeypair','-keystore',key,'-storepass','android','-keypass','android','-alias','androiddebugkey','-keyalg','RSA','-keysize','2048','-validity','10000','-dname','CN=Saber em Jogo Teste, O=Desenvolvimento, C=BR')
-output=root.parent/'Saber_em_Jogo_0.5_Android.apk'
+output=root.parent/'Saber_em_Jogo_0.6_Android.apk'
 run(bt/'apksigner','sign','--ks',key,'--ks-pass','pass:android','--key-pass','pass:android','--out',output,build/'aligned.apk')
 run(bt/'apksigner','verify','--verbose',output)
 run(bt/'zipalign','-c','-p','4',output)

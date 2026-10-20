@@ -42,7 +42,7 @@ public final class MainActivity extends Activity {
  private void showFailure(String code,String message){
   if(disposed || failed)return;
   failed=true; handler.removeCallbacksAndMessages(null);
-  diagnostic="Saber em Jogo 0.5 | "+code+" | Android "+Build.VERSION.RELEASE+" | "+Build.MANUFACTURER+" "+Build.MODEL;
+  diagnostic="Saber em Jogo 0.6 | "+code+" | Android "+Build.VERSION.RELEASE+" | "+Build.MANUFACTURER+" "+Build.MODEL;
   android.util.Log.e("SaberEmJogo",diagnostic);
   if(frame==null)return;
   if(web!=null && !"RENDER".equals(code))web.stopLoading();

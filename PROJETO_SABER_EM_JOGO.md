@@ -93,3 +93,10 @@ Verificações: cinco testes unitários de motor, smoke test do fluxo com DOM si
 Recuperação de inicialização, watchdog, validação de banco e build limpo. Consulte VALIDACAO_40_PONTOS.md e quality/results.json: 36 verificações aprovadas; quatro pendentes. A causa da não abertura no Samsung ainda não foi confirmada. Atualização em aparelho e publicação não foram validadas.
 
 APK atual: https://drive.google.com/file/d/1UgnHCt-2-q-cXM5NlxHtG1GVMoikHhq0/view?usp=drivesdk
+
+
+## Versão 0.6 — seis provas oficiais
+
+Exames 42–47, caderno branco tipo 1, com PDF oficial externo e cartão de respostas no app. 480 posições de resposta, gabaritos definitivos, pontuação das anuladas, timer opcional e retomada. Não são 480 enunciados importados no quiz: leia o PDF e responda no cartão. Consulte SIMULADOS_OAB.md para fontes e limites. 19 resultados Node aprovados; instalação real continua pendente.
+
+APK atual: https://drive.google.com/file/d/18QgIpXDTE27jR3p5HQk1VqOCR_lHO--a/view?usp=drivesdk
