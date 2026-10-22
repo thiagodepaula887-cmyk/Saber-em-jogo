@@ -1,3 +1,5 @@
+> Atualização 22/10/2026: a revisão web 0.8 retirou as lacunas e separou o básico. Consulte REVISAO_PEDAGOGICA_08.md para a contagem atual e limites. As descrições da 0.7 abaixo são históricas; não há novo APK entregue.
+
 # Saber em Jogo — histórico, passo a passo e pendências
 
 Registro de continuidade preparado em 21/10/2026 (horário de Brasília). Estado de referência: versão 0.7. Documento separado do guia técnico principal, solicitado pelo proprietário para consulta e transferência do projeto.

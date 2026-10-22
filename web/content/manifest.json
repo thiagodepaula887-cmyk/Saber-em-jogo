@@ -1,37 +1,49 @@
 {
-  "total": 10240,
+  "version": 8,
+  "total": 492,
   "modules": {
     "geral": 240,
-    "oab": 10000
+    "oab": 252
   },
   "categories": {
-    "Ética Profissional": 269,
-    "Direito Constitucional": 677,
-    "Direito Civil": 677,
-    "Processo Civil": 677,
-    "Direito Penal": 687,
-    "Processo Penal": 677,
-    "Direito do Trabalho": 677,
-    "Processo do Trabalho": 532,
-    "Direito Administrativo": 677,
-    "Direito Tributário": 384,
-    "Direito Empresarial": 677,
-    "Direito do Consumidor": 271,
-    "Estatuto da Criança e do Adolescente": 677,
-    "Direito Ambiental": 197,
-    "Direito Internacional": 302,
-    "Direito Eleitoral": 677,
-    "Direito Previdenciário": 472,
-    "Direito Financeiro": 399,
-    "Direitos Humanos": 344,
-    "Filosofia do Direito": 50
+    "Ética Profissional": 10,
+    "Direito Constitucional": 10,
+    "Direito Civil": 10,
+    "Processo Civil": 10,
+    "Direito Penal": 20,
+    "Processo Penal": 10,
+    "Direito do Trabalho": 10,
+    "Processo do Trabalho": 10,
+    "Direito Administrativo": 10,
+    "Direito Tributário": 10,
+    "Direito Empresarial": 10,
+    "Direito do Consumidor": 10,
+    "Estatuto da Criança e do Adolescente": 10,
+    "Direito Ambiental": 10,
+    "Direito Internacional": 10,
+    "Direito Eleitoral": 10,
+    "Direito Previdenciário": 10,
+    "Direito Financeiro": 10,
+    "Direitos Humanos": 10,
+    "Filosofia do Direito": 52
   },
   "laws": 24,
-  "sourceAccessedAt": "2026-10-21",
   "contentKinds": {
     "geral": 240,
     "conceito": 212,
-    "lei_seca": 9788
+    "caso_juridico": 40
   },
-  "sha256": "af63b2d15978f4055412aa966a74d2aeea7f9ca656ccc8fff918e2ba774225a1"
+  "sha256": "dda6a6362d84a55d0deec9baafd19448d0aa409147cf796ada1b77b3b06977a9",
+  "editorial": {
+    "version": 8,
+    "date": "2026-10-22",
+    "audited": 10000,
+    "withdrawn": 9788,
+    "basicPending": 212,
+    "newCases": 40,
+    "defaultLegalPool": 40,
+    "activeLegalTotal": 252,
+    "total": 492,
+    "legalReviewComplete": false
+  }
 }

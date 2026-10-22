@@ -3,7 +3,7 @@
  const ladder=[100,200,300,500,1000,2000,3000,5000,10000,20000];
  function dayKey(d=new Date()){return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;}
  function hash(s){let n=2166136261;for(const c of s){n^=c.charCodeAt(0);n=Math.imul(n,16777619);}return n>>>0;}
- function daily(bank,day){return ['oab','geral'].flatMap(mode=>bank.filter(i=>i.mode===mode).sort((a,b)=>hash(day+a.question.id)-hash(day+b.question.id)||a.question.id.localeCompare(b.question.id)).slice(0,5));}
+ function daily(bank,day){return ['oab','geral'].flatMap(mode=>bank.filter(i=>i.mode===mode&&(mode!=='oab'||i.question.editorialStatus==='revisado')).sort((a,b)=>hash(day+a.question.id)-hash(day+b.question.id)||a.question.id.localeCompare(b.question.id)).slice(0,5));}
  function mistakes(bank,history){const last=new Map();for(const a of history)last.set(a.id,a);return bank.filter(i=>last.has(i.question.id)&&last.get(i.question.id).correct===false);}
  function score(correct,index){return correct?(ladder[index]||ladder[ladder.length-1]):0;}
  function eliminate(options){return options.map((o,i)=>o.correct?-1:i).filter(i=>i>=0).slice(0,2);}

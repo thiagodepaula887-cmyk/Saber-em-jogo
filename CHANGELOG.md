@@ -1,3 +1,12 @@
+# 0.8 — revisão pedagógica em 22/10/2026
+
+- Retira 9.788 lacunas gramaticais; básico separado explicitamente do treino padrão.
+- 40 casos novos nas 20 disciplinas, filtros de dificuldade e fontes/comentários.
+- PCMG, DPE-PE e MPRJ: cadernos originais e gabaritos definitivos; cartões de 80/100 questões e cinco alternativas.
+- Inventário de 10.000 registros com decisões editoriais; não é revisão jurídica integral.
+- 29 testes aprovados. Web atualizada; novo APK não gerado.
+- Detalhes e pendências: REVISAO_PEDAGOGICA_08.md.
+
 # 0.7 — sincronização da entrega em 21/10/2026
 
 - 10.000 exercícios jurídicos e 240 gerais, biblioteca de 24 normas, pesquisa por lei/artigo e progresso.

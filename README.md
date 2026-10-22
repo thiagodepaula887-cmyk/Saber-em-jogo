@@ -1,44 +1,36 @@
-# Saber em Jogo — versão 0.7
+# Saber em Jogo — revisão 0.8
 
-Quiz de conhecimentos gerais e estudo do Direito: **10.000 exercícios jurídicos em 20 disciplinas + 240 gerais**, biblioteca de 24 normas, pesquisa por lei/artigo, progresso local e simulados dos exames OAB 42–47.
+[Jogar na web](https://saber-em-jogo-thiago.thiagodepaula887.chatgpt.site).
 
-Jogar: https://saber-em-jogo-thiago.thiagodepaula887.chatgpt.site
+A revisão remove as 9.788 lacunas de lei seca que podiam ser resolvidas por gramática. O treino padrão agora usa **40 casos autorais em 20 disciplinas**, com filtros médio/difícil e comentários. As **212 questões introdutórias** continuam em um filtro Básico explícito, com revisão individual pendente. Há ainda 240 perguntas de conhecimentos gerais e biblioteca de 24 normas.
 
-## Executar e testar
+**Provas oficiais:** seis exames OAB 42–47, Delegado PCMG 2025, Defensor DPE-PE 2025 e Promotor MPRJ 2025. Cadernos originais em PDF e cartão no app, com gabaritos definitivos. Os 280 itens dos concursos não foram transcritos ao quiz; não têm comentários individuais. O treino de concurso não calcula aprovação pelo edital.
 
-Requer Python 3 e Node.js. Na raiz do repositório:
+## Executar
+
+Requer Python 3 e Node.js:
 
 ```bash
 python3 web/scripts/prepare-content.py
 python3 -m http.server 8080 --directory web/dist
 ```
 
-Abra http://localhost:8080. Em outro terminal:
+Abra http://localhost:8080. Para testar:
 
 ```bash
 cd web
 node --test tests/*.test.cjs
 ```
 
-Os snapshots compactados de `web/content/*.v7.json.gz` são a fonte versionada. O preparo expande os dados para web e Android, sem baixar dependências ou leis. Os JSON gerados não são versionados. Não execute o gerador legado de 400 questões para preparar a versão 0.7.
+Para editar/reconstruir os casos: `python3 web/scripts/review-content.py`, seguido do preparo. A fonte ativa é `web/content/questions.v8.json.gz`; o snapshot v7 é histórico. O gerador de lacunas foi desativado.
 
-## Implementações
+## Continuidade
 
-- `web/`: HTML/CSS/JavaScript da versão atual; pode ser hospedado como site estático.
-- `android-offline/`: Java/WebView, assets locais, diagnóstico e lembretes; origem do APK 0.7. Veja [guia técnico](PROJETO_SABER_EM_JOGO.md) para o ambiente de compilação.
-- `mobile/`: base Expo/SQLite anterior, separada do APK distribuído.
-
-O APK funciona sem conta ChatGPT. O progresso fica no navegador/aparelho, sem sincronização. PDFs oficiais externos exigem internet. Não há instalador iOS nem publicação em loja.
-
-## Conteúdo e continuidade
-
-Das 10.000 questões jurídicas, 9.788 são lacunas de lei seca e 212 são conceituais. Não são 10.000 questões oficiais FGV; revisão jurídica individual permanece pendente. Os simulados usam PDFs oficiais e cartões de resposta, separados do banco autoral.
-
-- [Guia técnico e comandos](PROJETO_SABER_EM_JOGO.md)
+- [Revisão, fontes, contagens e limites](REVISAO_PEDAGOGICA_08.md)
+- [Guia técnico e arquitetura](PROJETO_SABER_EM_JOGO.md)
 - [Histórico e problemas abertos](HISTORICO_E_PENDENCIAS_SABER_EM_JOGO.md)
-- [Expansão e limites editoriais](EXPANSAO_10000.md)
-- [Simulados OAB](SIMULADOS_OAB.md)
 - [Alterações](CHANGELOG.md)
 
-27 resultados de testes automatizados aprovados nesta sincronização. Compilação Android não foi repetida nesta atualização do GitHub. O aviso Play Protect e os testes de notificações em aparelho continuam pendentes. Chaves privadas, senhas, APKs e AABs não são publicados neste repositório.
+29 resultados automatizados aprovados. Revisão jurídica integral das 10 mil questões **não concluída**; não anunciar 10 mil questões revisadas ou de banca. Dificuldade dos casos é estimativa editorial. A conferência visual no navegador ficou bloqueada neste ambiente.
 
+`web/` contém a versão atual. `android-offline/` contém Java/WebView e os assets revisados; **não foi entregue novo APK 0.8**. O APK 0.7 disponível usa o banco anterior. `mobile/` é uma base Expo histórica. Chaves privadas e senhas não são publicadas. Play Protect continua pendente. Progresso local, sem sincronização entre dispositivos.
