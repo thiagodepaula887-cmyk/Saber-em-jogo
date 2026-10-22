@@ -1,4 +1,4 @@
-> Atualização 22/10/2026: a revisão web 0.8 retirou as lacunas e separou o básico. Consulte REVISAO_PEDAGOGICA_08.md para a contagem atual e limites. As descrições da 0.7 abaixo são históricas; não há novo APK entregue.
+> Atualização 22/10/2026: a revisão web 0.8 retirou as lacunas e separou o básico. Consulte REVISAO_PEDAGOGICA_08.md para a contagem atual e limites. As descrições da 0.7 abaixo são históricas; o APK 0.8 foi posteriormente compilado, assinado e verificado; instalação em aparelho e Play Protect pendentes.
 
 # Saber em Jogo — entrega e continuidade
 

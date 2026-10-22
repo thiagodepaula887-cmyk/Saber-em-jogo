@@ -33,4 +33,4 @@ Para editar/reconstruir os casos: `python3 web/scripts/review-content.py`, segui
 
 29 resultados automatizados aprovados. Revisão jurídica integral das 10 mil questões **não concluída**; não anunciar 10 mil questões revisadas ou de banca. Dificuldade dos casos é estimativa editorial. A conferência visual no navegador ficou bloqueada neste ambiente.
 
-`web/` contém a versão atual. `android-offline/` contém Java/WebView e os assets revisados; **não foi entregue novo APK 0.8**. O APK 0.7 disponível usa o banco anterior. `mobile/` é uma base Expo histórica. Chaves privadas e senhas não são publicadas. Play Protect continua pendente. Progresso local, sem sincronização entre dispositivos.
+`web/` contém a versão atual. `android-offline/` contém Java/WebView e os assets revisados; **APK 0.8 compilado e assinado com o mesmo certificado do APK 0.7**. Instalação em aparelho e Play Protect ainda não validados. [Baixar APK 0.8](https://drive.google.com/file/d/1MQb4O4vpKAJGzwleyeDsHY23D8KPh98s/view). `mobile/` é uma base Expo histórica. Chaves privadas e senhas não são publicadas. Play Protect continua pendente. Progresso local, sem sincronização entre dispositivos.

@@ -20,8 +20,8 @@ run(bt/'d8','--lib',platform,'--min-api','26','--output',build/'dex',*classes)
 with zipfile.ZipFile(build/'base.apk','a',zipfile.ZIP_DEFLATED) as apk:apk.write(build/'dex/classes.dex','classes.dex')
 run(bt/'zipalign','-f','-p','4',build/'base.apk',build/'aligned.apk')
 key=root/'test-signing.keystore'
-if not key.exists():run('keytool','-genkeypair','-keystore',key,'-storepass','android','-keypass','android','-alias','androiddebugkey','-keyalg','RSA','-keysize','2048','-validity','10000','-dname','CN=Saber em Jogo Teste, O=Desenvolvimento, C=BR')
-output=root.parent/'Saber_em_Jogo_0.7_Android.apk'
+if not key.exists():raise SystemExit('Restaure a chave original test-signing.keystore. A compilação não cria outra chave automaticamente, pois isso quebra a compatibilidade das atualizações.')
+output=root.parent/'Saber_em_Jogo_0.8_Android.apk'
 run(bt/'apksigner','sign','--ks',key,'--ks-pass','pass:android','--key-pass','pass:android','--out',output,build/'aligned.apk')
 run(bt/'apksigner','verify','--verbose',output)
 run(bt/'zipalign','-c','-p','4',output)

@@ -1,3 +1,10 @@
+# 0.8 Android — 22/10/2026
+
+- APK compilado: versionCode 8, conteúdo da revisão pedagógica e cartões de concursos.
+- Certificado igual ao APK 0.7; assinatura v2/v3, alinhamento e assets verificados.
+- A compilação exige a chave original; não cria outra silenciosamente.
+- Instalação em aparelho e aviso Play Protect continuam sem validação.
+
 # 0.8 — revisão pedagógica em 22/10/2026
 
 - Retira 9.788 lacunas gramaticais; básico separado explicitamente do treino padrão.

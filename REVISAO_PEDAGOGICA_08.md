@@ -48,6 +48,14 @@ O arquivo `web/content/casos-revisados.py` é a fonte editorial dos 40 casos. `r
 
 29 resultados automatizados aprovados: regressão dos modos de jogo, filtros, origem e fonte, biblioteca, continuidade dos cartões OAB, cinco alternativas, provas com 100 posições, anulações, ausência de aprovação fictícia nos concursos. Em 10 de 40 casos, a correta é a alternativa mais longa; tamanho não é critério confiável de resposta. Esse diagnóstico não substitui teste de dificuldade com estudantes.
 
-A conferência visual pelo navegador não pôde ser concluída por bloqueio do ambiente. O código e os assets Android receberam a revisão; não foi gerado nem testado um novo APK neste ambiente, que não possui o conjunto de ferramentas de compilação Android. O download Android é identificado como 0.7/banco anterior. Instalação e Play Protect continuam pendentes e independentes desta revisão de conteúdo.
+A conferência visual pelo navegador não pôde ser concluída por bloqueio do ambiente. O APK 0.8 foi compilado após preparar plataforma API 36 r02, build-tools 35 e ECJ 3.37 a partir de fontes oficiais. Assinatura v2/v3, alinhamento, integridade ZIP e correspondência dos assets com o banco revisado foram verificados. O certificado coincide com o APK 0.7 e versionCode passou a 8. A instalação ainda não foi testada em aparelho. O gerador agora exige restaurar a chave original em vez de criar outra silenciosamente. Instalação e Play Protect continuam pendentes e independentes desta revisão de conteúdo.
 
 Ainda falta substituir editorialmente os 9.788 itens retirados e revisar individualmente os 212 básicos; ampliar o banco de casos; integrar enunciados oficiais na experiência pergunta a pergunta quando houver fonte e possibilidade de uso; validar atualização legislativa/jurisprudencial e dificuldade por desempenho. Não afirmar que essa revisão integral foi concluída.
+
+## APK 0.8
+
+- [Download](https://drive.google.com/file/d/1MQb4O4vpKAJGzwleyeDsHY23D8KPh98s/view)
+- Pacote: `com.thiagolucas.saberemjogo`; versão: `0.8.0-teste`; versionCode: `8`.
+- Tamanho: 1.434.727 bytes.
+- SHA-256: `9dee5329fe932d55ebe43b990252908dc16e2bdbde7cba629d1303f4dc7cf1aa`.
+- Não há confirmação de resolução do Play Protect ou teste de instalação no A53.
