@@ -1,0 +1,10 @@
+(function(root,factory){const api=factory();if(typeof module==='object'&&module.exports)module.exports=api;else root.StudyEngine=api;})(typeof globalThis!=='undefined'?globalThis:this,function(){
+'use strict';
+function norm(s){return String(s||'').replace(/(\d)\.(?=\d)/g,'$1').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();}
+function match(text,q){const hay=norm(text),tokens=norm(q).split(' ').filter(Boolean);return tokens.every(t=>hay.includes(t));}
+function findQuestions(bank,{query='',discipline='',subject='',lawId=''}={}){return bank.filter(i=>i.mode==='oab'&&(!discipline||i.question.discipline===discipline)&&(!subject||i.question.subject===subject)&&(!lawId||i.question.lawId===lawId)&&match([i.question.statement,i.question.discipline,i.question.subject,i.question.explanation,...i.question.legalReferences,...(i.question.tags||[])].join(' '),query));}
+function findLaws(laws,query){const digits=String(query).replace(/\D/g,'');return laws.filter(l=>match([l.title,l.number,...l.aliases].join(' '),query)||(digits.length>=4&&[l.number,...l.aliases].some(a=>String(a).replace(/\D/g,'')===digits)));}
+function progress(items,history){const last=new Map();for(const h of history)if(h&&typeof h.correct==='boolean')last.set(h.id,h);let seen=0,correct=0;for(const i of items){const h=last.get(i.question.id);if(h&&h.version===i.question.version){seen++;if(h.correct)correct++;}}return {total:items.length,seen,correct,remaining:items.length-seen,coverage:items.length?Math.round(seen/items.length*100):0};}
+function reminderText(label,p){return `${label}: ${p.seen}/${p.total} questões vistas; ${p.correct} corretas na última resposta. Faltam ${p.remaining} para percorrer este conteúdo.`;}
+return {norm,match,findQuestions,findLaws,progress,reminderText};
+});

@@ -9,3 +9,11 @@ artifacts/
 *.env
 
 *.idsig
+
+# Generated from versioned compressed editorial snapshots
+web/dist/questions.json
+web/dist/law-library.json
+android-offline/assets/questions.json
+android-offline/assets/law-library.json
+.legal-sources/
+*.aab

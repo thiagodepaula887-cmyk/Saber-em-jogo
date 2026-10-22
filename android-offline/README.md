@@ -1,5 +1,9 @@
 # Android offline — APK de teste
 
+## Estado atual: 0.7
+
+O APK atual usa 10.000 exercícios jurídicos, 240 gerais e biblioteca de 24 normas, com pesquisa, progresso e lembretes. Execute `python3 web/scripts/prepare-content.py` na raiz antes de trabalhar nos assets. O ambiente de compilação atual (API 36, build-tools 35, AAPT2 e bundletool) está descrito em [PROJETO_SABER_EM_JOGO.md](../PROJETO_SABER_EM_JOGO.md). As notas abaixo são históricas da 0.4/0.6. A instalação da 0.7 foi confirmada pelo proprietário; o aviso Play Protect e a entrega de notificações em aparelho continuam pendentes. A compilação Android não foi repetida durante a sincronização GitHub.
+
 Aplicativo Android instalável, independente do Expo Go, com a interface web e as 400 questões embarcadas e os modos de jogo descritos no CHANGELOG.md. Compatibilidade declarada: Android 8.0 (API 26) ou superior. Assinatura de teste, sem publicação nas lojas. A instalação não foi validada em aparelho/emulador nesta entrega.
 
 ## Implementação

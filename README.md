@@ -1,22 +1,44 @@
-## Atualização 0.6 — simulados OAB
+# Saber em Jogo — versão 0.7
 
-Os exames 42º a 47º estão acessíveis na capa: PDF oficial branco/tipo 1 e cartão de 80 respostas com correção definitiva, anuladas, prazo opcional e retomada. Consulte [SIMULADOS_OAB.md](SIMULADOS_OAB.md). O APK contém cartão/gabaritos; leitura do caderno usa o PDF externo. Teste de instalação em aparelho continua pendente.
+Quiz de conhecimentos gerais e estudo do Direito: **10.000 exercícios jurídicos em 20 disciplinas + 240 gerais**, biblioteca de 24 normas, pesquisa por lei/artigo, progresso local e simulados dos exames OAB 42–47.
 
-# Saber em Jogo
+Jogar: https://saber-em-jogo-thiago.thiagodepaula887.chatgpt.site
 
-Aplicativo de perguntas e respostas: 400 questões autorais, sendo 160 jurídicas em 20 disciplinas e 240 gerais em nove categorias.
+## Executar e testar
 
-Teste: https://saber-em-jogo-thiago.thiagodepaula887.chatgpt.site
+Requer Python 3 e Node.js. Na raiz do repositório:
 
-- `android-offline/`: código Java e assets usados no APK de teste 0.4, que funciona sem Expo Go.
-- `web/`: versão publicada, conteúdo editorial e testes.
-- `mobile/`: projeto React Native/Expo/SQLite para evolução multiplataforma, separado do APK atual.
+```bash
+python3 web/scripts/prepare-content.py
+python3 -m http.server 8080 --directory web/dist
+```
 
-Web: `cd web && node tests/web.test.cjs`.
-Mobile: `cd mobile && npm ci && npm run typecheck && npm test`.
+Abra http://localhost:8080. Em outro terminal:
 
-Para baixar o APK Android, use o botão Baixar Android no site. Não há binário iOS nesta versão. Compilação e assinatura verificadas; instalação em aparelho real ainda precisa de validação.
+```bash
+cd web
+node --test tests/*.test.cjs
+```
 
-Perguntas autorais de fixação, sem vínculo com OAB/FGV. Chaves de assinatura, dados de usuários e credenciais não são versionados. Veja os READMEs de cada pasta e PROJETO_SABER_EM_JOGO.md.
+Os snapshots compactados de `web/content/*.v7.json.gz` são a fonte versionada. O preparo expande os dados para web e Android, sem baixar dependências ou leis. Os JSON gerados não são versionados. Não execute o gerador legado de 400 questões para preparar a versão 0.7.
 
-Novidades na web e no APK 0.4: modo Desafio, ajuda 50/50, cronômetro opcional, caderno de erros e desafio diário. Veja CHANGELOG.md.
+## Implementações
+
+- `web/`: HTML/CSS/JavaScript da versão atual; pode ser hospedado como site estático.
+- `android-offline/`: Java/WebView, assets locais, diagnóstico e lembretes; origem do APK 0.7. Veja [guia técnico](PROJETO_SABER_EM_JOGO.md) para o ambiente de compilação.
+- `mobile/`: base Expo/SQLite anterior, separada do APK distribuído.
+
+O APK funciona sem conta ChatGPT. O progresso fica no navegador/aparelho, sem sincronização. PDFs oficiais externos exigem internet. Não há instalador iOS nem publicação em loja.
+
+## Conteúdo e continuidade
+
+Das 10.000 questões jurídicas, 9.788 são lacunas de lei seca e 212 são conceituais. Não são 10.000 questões oficiais FGV; revisão jurídica individual permanece pendente. Os simulados usam PDFs oficiais e cartões de resposta, separados do banco autoral.
+
+- [Guia técnico e comandos](PROJETO_SABER_EM_JOGO.md)
+- [Histórico e problemas abertos](HISTORICO_E_PENDENCIAS_SABER_EM_JOGO.md)
+- [Expansão e limites editoriais](EXPANSAO_10000.md)
+- [Simulados OAB](SIMULADOS_OAB.md)
+- [Alterações](CHANGELOG.md)
+
+27 resultados de testes automatizados aprovados nesta sincronização. Compilação Android não foi repetida nesta atualização do GitHub. O aviso Play Protect e os testes de notificações em aparelho continuam pendentes. Chaves privadas, senhas, APKs e AABs não são publicados neste repositório.
+

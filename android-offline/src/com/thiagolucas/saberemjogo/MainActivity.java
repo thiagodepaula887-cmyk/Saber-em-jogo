@@ -25,6 +25,20 @@ import java.io.IOException;
 import java.util.HashMap;
 
 public final class MainActivity extends Activity {
+
+ public final class StudyBridge {
+  @JavascriptInterface public void configureReminder(final String label,final String body,final int hour,final int minute){
+   if(hour<0||hour>23||minute<0||minute>59||body==null||body.length()>500)return;
+   runOnUiThread(new Runnable(){public void run(){
+    StudyReminder.prefs(MainActivity.this).edit().putBoolean("enabled",true).putString("body",body).putInt("hour",hour).putInt("minute",minute).apply();
+    if(Build.VERSION.SDK_INT>=33&&checkSelfPermission("android.permission.POST_NOTIFICATIONS")!=android.content.pm.PackageManager.PERMISSION_GRANTED)requestPermissions(new String[]{"android.permission.POST_NOTIFICATIONS"},710);
+    else StudyReminder.schedule(MainActivity.this);
+   }});
+  }
+  @JavascriptInterface public void cancelReminder(){StudyReminder.cancel(MainActivity.this);}
+  @JavascriptInterface public void updateProgress(String body){if(body!=null&&body.length()<=500)StudyReminder.prefs(MainActivity.this).edit().putString("body",body).apply();}
+ }
+ @Override public void onRequestPermissionsResult(int code,String[] permissions,int[] results){super.onRequestPermissionsResult(code,permissions,results);if(code==710){if(results.length>0&&results[0]==android.content.pm.PackageManager.PERMISSION_GRANTED)StudyReminder.schedule(this);else StudyReminder.cancel(this);}}
  private WebView web;
  private FrameLayout frame;
  private final Handler handler=new Handler(Looper.getMainLooper());
@@ -42,7 +56,7 @@ public final class MainActivity extends Activity {
  private void showFailure(String code,String message){
   if(disposed || failed)return;
   failed=true; handler.removeCallbacksAndMessages(null);
-  diagnostic="Saber em Jogo 0.6 | "+code+" | Android "+Build.VERSION.RELEASE+" | "+Build.MANUFACTURER+" "+Build.MODEL;
+  diagnostic="Saber em Jogo 0.7 | "+code+" | Android "+Build.VERSION.RELEASE+" | "+Build.MANUFACTURER+" "+Build.MODEL;
   android.util.Log.e("SaberEmJogo",diagnostic);
   if(frame==null)return;
   if(web!=null && !"RENDER".equals(code))web.stopLoading();
@@ -79,6 +93,7 @@ public final class MainActivity extends Activity {
   settings.setJavaScriptCanOpenWindowsAutomatically(false);
   settings.setSupportMultipleWindows(false);
   settings.setMixedContentMode(WebSettings.MIXED_CONTENT_NEVER_ALLOW);
+  web.addJavascriptInterface(new StudyBridge(),"AndroidStudy");
   web.setWebViewClient(new WebViewClient(){
    @Override public void onReceivedError(WebView view,WebResourceRequest request,WebResourceError error){if(request.isForMainFrame())showFailure("WEB-"+error.getErrorCode(),"Não foi possível abrir a tela inicial do jogo.");}
    @Override public boolean onRenderProcessGone(WebView view,RenderProcessGoneDetail detail){frame.removeView(view);view.destroy();web=null;showFailure("RENDER", "O componente de exibição do Android foi encerrado. Tente novamente.");return true;}
@@ -93,7 +108,7 @@ public final class MainActivity extends Activity {
     try {
      WebResourceResponse response=new WebResourceResponse(mime,"UTF-8",getAssets().open(name));
      HashMap<String,String> headers=new HashMap<>();
-     headers.put("Content-Security-Policy","default-src 'self' data:; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; connect-src 'self'; img-src 'self' data:; object-src 'none'");
+     headers.put("Content-Security-Policy","default-src 'self' data:; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; connect-src 'self'; img-src 'self' data:; object-src 'none'; frame-src 'none'");
      response.setResponseHeaders(headers);
      return response;
     } catch(IOException e){return blocked();}

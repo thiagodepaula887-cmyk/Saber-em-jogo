@@ -1,3 +1,11 @@
+# 0.7 — sincronização da entrega em 21/10/2026
+
+- 10.000 exercícios jurídicos e 240 gerais, biblioteca de 24 normas, pesquisa por lei/artigo e progresso.
+- Código Android com lembretes, manifesto API 36 e scripts de APK/AAB recuperados do ZIP 0.7.
+- Snapshots compactados versionados; prepare-content.py gera os JSON web e Android após clonar.
+- Documentação de continuidade e pendências atualizada; Expo anterior preservado.
+- 27 resultados Node aprovados. Build Android não repetido nesta sincronização; Play Protect e notificações em aparelho pendentes.
+
 # 0.6.0-teste — 2026-10-20
 
 - Seis simulados OAB: 42º ao 47º, PDF oficial tipo 1 + cartão de 80 respostas.
@@ -31,3 +39,4 @@ Na versão web e no APK Android offline:
 As perguntas continuam introdutórias; pontuação crescente não significa dificuldade adaptativa. Não há premiação em dinheiro. Histórico local independente entre web, APK e projeto Expo. O projeto Expo permanece na base anterior; esses recursos foram implementados na web e no APK offline.
 
 Verificações: testes unitários do motor; teste do fluxo com DOM simulado, incluindo três erros, tempo expirado e conclusão diária; assinatura APK e zipalign. Não executado em aparelho real.
+
