@@ -21,7 +21,7 @@ with zipfile.ZipFile(build/'base.apk','a',zipfile.ZIP_DEFLATED) as apk:apk.write
 run(bt/'zipalign','-f','-p','4',build/'base.apk',build/'aligned.apk')
 key=root/'test-signing.keystore'
 if not key.exists():raise SystemExit('Restaure a chave original test-signing.keystore. A compilação não cria outra chave automaticamente, pois isso quebra a compatibilidade das atualizações.')
-output=root.parent/'Saber_em_Jogo_0.8_Android.apk'
+output=root.parent/'Saber_em_Jogo_0.9_Android.apk'
 run(bt/'apksigner','sign','--ks',key,'--ks-pass','pass:android','--key-pass','pass:android','--out',output,build/'aligned.apk')
 run(bt/'apksigner','verify','--verbose',output)
 run(bt/'zipalign','-c','-p','4',output)

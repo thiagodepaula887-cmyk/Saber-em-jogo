@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build auditable v8 without reinstating rejected word-completion exercises."""
+"""Build v9 preserving all original questions and clearly labeling pending review."""
 from pathlib import Path
 import gzip,json,runpy,hashlib,collections
 root=Path(__file__).resolve().parents[1]
@@ -18,19 +18,19 @@ for n,row in enumerate(rows):
   q['article']=article
  new.append({'mode':'oab','question':q})
 assert len(new)==40 and len({i['question']['discipline'] for i in new})==20
-# Older conceptual items remain available only by explicit basic-level selection.
+# Preserve every original question; pending review is metadata, never a deletion rule.
 base=[];audit=[]
 for item in old:
  q=item['question']
  if item['mode']=='geral':base.append(item);continue
  bad=q.get('contentKind')=='lei_seca'
- audit.append({'id':q['id'],'decision':'retirado' if bad else 'basico_pendente','reason':'Lacuna com distratores de classes gramaticais e domínios incompatíveis; exige substituição editorial.' if bad else 'Pergunta introdutória com distratores evidentes; não classificada como treino exigente. Revisão jurídica individual não concluída.'})
- if not bad:
-  q['editorialStatus']='basico_pendente';base.append(item)
+ audit.append({'id':q['id'],'decision':'preservado_pendente' if bad else 'basico_pendente','reason':'Lacuna com distratores de classes gramaticais e domínios incompatíveis; exige substituição editorial.' if bad else 'Pergunta introdutória com distratores evidentes; não classificada como treino exigente. Revisão jurídica individual não concluída.'})
+ q['editorialStatus']='revisao_pendente' if bad else 'basico_pendente'
+ base.append(item)
 bank=base+new; raw=(json.dumps(bank,ensure_ascii=False,indent=2)+'\n').encode()
-(root/'content/questions.v8.json.gz').write_bytes(gzip.compress(raw,mtime=0))
-report={'version':8,'date':'2026-10-22','audited':len(audit),'withdrawn':sum(a['decision']=='retirado' for a in audit),'basicPending':sum(a['decision']=='basico_pendente' for a in audit),'newCases':len(new),'defaultLegalPool':len(new),'activeLegalTotal':sum(i['mode']=='oab' for i in bank),'total':len(bank),'legalReviewComplete':False,'questions':audit}
-(root/'content/editorial-audit.v8.json.gz').write_bytes(gzip.compress((json.dumps(report,ensure_ascii=False)+'\n').encode(),mtime=0))
-manifest={'version':8,'total':len(bank),'modules':dict(collections.Counter(i['mode'] for i in bank)),'categories':dict(collections.Counter(i['question']['discipline'] for i in bank if i['mode']=='oab')),'laws':len(laws),'contentKinds':dict(collections.Counter(i['question'].get('contentKind','geral') for i in bank)),'sha256':hashlib.sha256(raw).hexdigest(),'editorial':{k:v for k,v in report.items() if k!='questions'}}
+(root/'content/questions.v9.json.gz').write_bytes(gzip.compress(raw,mtime=0))
+report={'version':9,'date':'2026-10-22','audited':len(audit),'withdrawn':sum(a['decision']=='retirado' for a in audit),'basicPending':sum(a['decision']=='basico_pendente' for a in audit),'newCases':len(new),'defaultLegalPool':sum(i['mode']=='oab' for i in bank),'activeLegalTotal':sum(i['mode']=='oab' for i in bank),'total':len(bank),'legalReviewComplete':False,'questions':audit}
+(root/'content/editorial-audit.v9.json.gz').write_bytes(gzip.compress((json.dumps(report,ensure_ascii=False)+'\n').encode(),mtime=0))
+manifest={'version':9,'total':len(bank),'modules':dict(collections.Counter(i['mode'] for i in bank)),'categories':dict(collections.Counter(i['question']['discipline'] for i in bank if i['mode']=='oab')),'laws':len(laws),'contentKinds':dict(collections.Counter(i['question'].get('contentKind','geral') for i in bank)),'sha256':hashlib.sha256(raw).hexdigest(),'editorial':{k:v for k,v in report.items() if k!='questions'}}
 (root/'content/manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps({k:v for k,v in report.items() if k!='questions'},ensure_ascii=False))

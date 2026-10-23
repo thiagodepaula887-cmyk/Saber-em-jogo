@@ -17,3 +17,6 @@ android-offline/assets/questions.json
 android-offline/assets/law-library.json
 .legal-sources/
 *.aab
+
+# v9 rebuilt deterministically from v7 and curated cases
+web/content/questions.v9.json.gz

@@ -1,3 +1,5 @@
+> Estado atual: versão 0.9 restaura as 10.000 jurídicas anteriores e mantém os 40 casos novos. O banco completo fica acessível por padrão; revisão das antigas pendente. Consulte RESTAURACAO_09.md. As notas da 0.8 abaixo são históricas.
+
 # Revisão pedagógica 0.8 — 22/10/2026
 
 ## Diagnóstico e alcance

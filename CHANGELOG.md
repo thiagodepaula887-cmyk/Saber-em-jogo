@@ -1,3 +1,12 @@
+# 0.9 — restauração do banco completo
+
+- Recupera as 10.000 jurídicas anteriores e mantém os 40 casos novos.
+- Padrão do estudo, filtros e partidas volta ao banco completo; revisão pendente não exclui itens.
+- Preserva IDs, versões, conteúdo e gabarito de todas as originais.
+- 31 testes aprovados, incluindo regressão do desaparecimento das questões.
+- Android versionCode 9; publicação Google Play ainda pendente.
+- Estado atual detalhado em RESTAURACAO_09.md.
+
 # 0.8 Android — 22/10/2026
 
 - APK compilado: versionCode 8, conteúdo da revisão pedagógica e cartões de concursos.
